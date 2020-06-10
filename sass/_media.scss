@@ -1,0 +1,11 @@
+@media screen and (max-width: 768px) {
+  .black-nav {
+    ul {
+      display: none;
+    }
+
+    a:nth-child(3) {
+      margin-right: 2rem;
+    }
+  }
+}

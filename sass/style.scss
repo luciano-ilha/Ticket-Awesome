@@ -1,8 +1,45 @@
 @import 'config';
+@import 'tipography';
+@import 'utilities';
 
-body {
-  background-color: #d9d9d9;
+.black-nav {
+  font-family: $font-lato;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 2.5rem;
+  background-color: #3E3E3E;
+  color: white;
+
+  img {
+    margin: 0 .5rem;
+    filter: invert(100%);
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+    margin-right: 5rem;
+    margin-left: 2rem;
+  }
+
+  li:first-child {
+    margin-right: 1.5rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
 }
 
-@import 'utilities';
+.nav-twitter-icon,
+.nav-face-icon {
+  width: 1.4rem;
+}
+
+.nav-insta-icon {
+  width: 1.1rem;
+}
+
 @import 'media';
