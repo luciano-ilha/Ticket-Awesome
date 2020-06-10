@@ -1,11 +1,138 @@
-@media screen and (max-width: 768px) {
-  .black-nav {
+@media screen and (max-width: 1500px) {
+  // TOP NAVBAR
+  .top-nav {
     ul {
-      display: none;
+      margin-right: 3rem;
+    }
+  
+    li:first-child {
+      margin-right: 1.5rem;
+    }
+  
+    a {
+      color: white;
+    }
+  }
+  
+  // BOTTOM NAVBAR
+  .bottom-nav {
+    &-left {
+      &-ticket-logo {
+        margin: 0.4rem 2rem 0.4rem 6rem;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+      }
     }
 
-    a:nth-child(3) {
-      margin-right: 2rem;
+    &-right {
+      margin-right: 2.8rem;
+
+      ul {
+        margin-right: 2rem;
+      }
+
+      li {
+        a {
+          font-family: $font-lato;
+          font-size: 1.1rem;
+        }
+      }
+    }
+  }
+
+  // ABOUT MAIN CONTENT
+  .main-about-content {
+    height: 63rem;
+  
+    &-row {
+      padding-top: 9rem;
+    }
+  
+    h1 {
+      font-size: 4.5rem;
+      margin-bottom: 3rem;
+    }
+  
+    h2 {
+      font-size: 3.5rem;
+    }
+  
+    a {
+      color: white;
+    }
+  
+    h3 {
+      font-size: 2rem;
+    }
+  
+    p {
+      font-size: 1.1rem;
+      color: white;
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+    }
+  
+    p:nth-child(4) {
+      font-size: 1.3rem;
+      line-height: 2rem;
+      width: 65%;
+      color: $my-red;
+      background-color: $my-gray;
+      padding: 1rem 1.3rem;
+      margin-top: 4rem;
+      border-radius: 0.5rem;
+    }
+  
+    span {
+      a {
+        font-family: $font-lato;
+        font-size: 1.1rem;
+      }
+  
+      a:hover {
+        text-decoration: underline;
+        color: $my-red;
+      }
+    }
+  
+    &-email {
+      display: flex;
+      align-items: flex-end;
+  
+      img {
+        width: 0.9rem;
+        height: 0.9rem;
+        filter: invert(100%);
+        margin-left: 0.3rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  // BOTTOM NAVBAR
+  .bottom-nav {
+    &-left {
+      &-ticket-logo {
+        width: 8.5rem;
+        height: 8.5rem;
+        margin: 0.4rem 2rem 0.4rem 4rem;
+      }
+
+      h1 {
+        font-size: 1.7rem;
+      }
+    }
+
+    &-right {
+      ul {
+        li:nth-child(4),
+        li:last-child {
+          display: none;
+        }
+      }
     }
   }
 }
