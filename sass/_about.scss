@@ -1,6 +1,6 @@
 // ABOUT - MAIN CONTENT
 .main-about-content {
-  background-image: url("../assets/images/crowd2.jpg");
+  background-image: url("../assets/images/crowd.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -26,7 +26,11 @@
     h1 {
       font-family: Coco-semilight;
       font-size: 5rem;
-      color: white;
+      background-image: url("/assets/images/ticket-letters.jpg");
+      background-position: center;
+      background-size: contain;
+      color: transparent;
+      -webkit-background-clip: text;
       text-align: center;
       margin-bottom: 4rem;
     }

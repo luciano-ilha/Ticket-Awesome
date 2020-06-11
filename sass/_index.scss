@@ -1,12 +1,11 @@
 // ABOUT - MAIN CONTENT
-.main-about-content {
-  background-image: url("../assets/images/crowd2.jpg");
+.main-content {
+  background-image: url("../assets/images/crowd-main.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 68rem;
   opacity: 90%;
-  text-align: center;
 
   &-menu {
     display: none;
@@ -18,17 +17,33 @@
   &-row {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     width: 70%;
     margin: 0 auto;
-    padding-top: 13rem;
+    padding-top: 10rem;
 
     h1 {
+      font-family: Coco-ultralight;
+      font-size: 3rem;
+      background-image: url("/assets/images/ticket-letters.jpg");
+      background-position: center;
+      background-size: contain;
+      color: transparent;
+      -webkit-background-clip: text;
+      margin-bottom: 2rem;
+      padding-top: 0.5rem;
+    }
+
+    h2 {
       font-family: Coco-semilight;
-      font-size: 5rem;
-      color: white;
-      text-align: center;
+      font-size: 6rem;
+      background-image: url("/assets/images/ticket-letters.jpg");
+      background-position: center;
+      background-size: contain;
+      color: transparent;
+      -webkit-background-clip: text;
       margin-bottom: 4rem;
+      padding-top: 1rem;
     }
   
     a {
@@ -39,60 +54,55 @@
         font-size: 2.5rem;
         background-color: $my-red;
         padding: 1.5rem 1.5rem 1rem;
+        margin-left: 6rem;
         border: 0.1875rem solid $my-black;
         border-radius: 1.5rem;
       }
     }
   
-    p {
-      font-family: $font-lato;
-      font-size: 1.1rem;
-      color: white;
-      margin-top: 3rem;
-      margin-bottom: 1rem;
-    }
-  
-    p:nth-child(3) {
+    p:nth-child(4) {
       font-family: $font-lato;
       text-align: center;
       font-size: 1.5rem;
       line-height: 2rem;
       width: 65%;
-      color: $my-red;
+      color: rgb(73, 73, 73);
       background-color: $my-gray;
       padding: 1rem 1.3rem;
       margin-top: 4rem;
       border-radius: 0.5rem;
     }
   
-    &-email {
+    &-bottom {
       display: flex;
-      align-items: flex-end;
-
-      span {
-        a {
-          font-family: $font-lato;
-          font-size: 1.1rem;
-        }
-    
-        a:hover {
-          text-decoration: underline;
-          color: $my-red;
-        }
+      flex-direction: column;
+      
+      h3 {
+        font-family: $font-lato;
+        font-size: 2.5rem;
+        background-color: $my-gray;
+        color: $my-red;
+        margin-top: 2rem;
+        padding: 0.3rem;
+        border-radius: 0.5rem;
       }
-  
-      img {
-        width: 0.9rem;
-        height: 0.9rem;
-        filter: invert(100%);
-        margin-left: 0.3rem;
+
+      p {
+        font-family: $font-lato;
+        font-size: 1.4rem;
+        background-color: $my-gray;
+        color: $my-red;
+        margin-top: 0.8rem;
+        padding: 0.3rem;
+        border-radius: 0.5rem;
+        width: fit-content;
       }
     }
   }
 }
 
 // ABOUT - PREVIOUS EVENTS
-.about-previous-events {
+.main-program {
   display: flex;
   align-items: center;
   text-align: center;
@@ -100,103 +110,6 @@
   height: 35rem;
 
   &-row {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-
-    h2 {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      font-family: Coco-semilight;
-      font-size: 1.5rem;
-    }
-
-    h2::after {
-      content: "";
-      margin-top: 1.5rem;
-      border: .125rem solid $my-red;
-      width: 2rem;
-    }
-
-    p {
-      font-family: $font-lato;
-      font-size: 1rem;
-      margin-top: 1.5rem;
-    }
-
-    &-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: 1fr;
-      grid-gap: 2rem;
-      width: 50rem;
-      margin-top: 3rem;
-
-      &-item1 {
-        height: 12rem;
-        color: white;
-        background-image: url("/assets/images/band.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        z-index: 1;
-        
-        &-content {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          width: 100%;
-          height: 100%;
-          background: rgb(39,42,49);
-          background: linear-gradient(90deg, rgba(39,42,49,1) 4%, rgba(160,67,60,0.6) 21%, rgba(200,75,63,0.6) 34%, rgba(236,82,66,0.6) 50%, rgba(160,67,60,0.6) 75%, rgba(39,42,49,1) 96%);
-
-          h1 {
-            font-family: $font-lato;
-            font-size: 2rem;
-            color: white;
-          }
-
-          p {
-            font-family: Coco-light;
-            font-size: 0.9rem;
-          }
-        }
-      }
-
-      &-item2 {
-        height: 12rem;
-        color: white;
-        background-image: url("/assets/images/band1.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        z-index: 1;
-        
-        &-content {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          width: 100%;
-          height: 100%;
-          background: rgb(39,42,49);
-          background: linear-gradient(90deg, rgba(39,42,49,1) 4%, rgba(160,67,60,0.6) 21%, rgba(200,75,63,0.6) 34%, rgba(236,82,66,0.6) 50%, rgba(160,67,60,0.6) 75%, rgba(39,42,49,1) 96%);
-
-          h1 {
-            font-family: $font-lato;
-            font-size: 2rem;
-            color: white;
-          }
-
-          p {
-            font-family: Coco-light;
-            font-size: 0.9rem;
-          }
-        }
-      }
-    }
+    
   }
 }

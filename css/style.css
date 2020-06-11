@@ -38,8 +38,96 @@
   font-family: Coco-trial-italic;
   src: url("../assets/fonts/Cocogoose Pro Italic-trial.ttf"); }
 
+.main-content {
+  background-image: url("../assets/images/crowd-main.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 68rem;
+  opacity: 90%; }
+  .main-content-menu {
+    display: none;
+    width: 3.3rem;
+    filter: invert(85%) sepia(0%) saturate(2403%) hue-rotate(144deg) brightness(104%) contrast(86%);
+    margin-left: 2rem; }
+  .main-content-row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 10rem; }
+    .main-content-row h1 {
+      font-family: Coco-ultralight;
+      font-size: 3rem;
+      background-image: url("/assets/images/ticket-letters.jpg");
+      background-position: center;
+      background-size: contain;
+      color: transparent;
+      -webkit-background-clip: text;
+      margin-bottom: 2rem;
+      padding-top: 0.5rem; }
+    .main-content-row h2 {
+      font-family: Coco-semilight;
+      font-size: 6rem;
+      background-image: url("/assets/images/ticket-letters.jpg");
+      background-position: center;
+      background-size: contain;
+      color: transparent;
+      -webkit-background-clip: text;
+      margin-bottom: 4rem;
+      padding-top: 1rem; }
+    .main-content-row a {
+      color: white; }
+      .main-content-row a h3 {
+        font-family: Coco-semilight;
+        font-size: 2.5rem;
+        background-color: #ec5242;
+        padding: 1.5rem 1.5rem 1rem;
+        margin-left: 6rem;
+        border: 0.1875rem solid #272a31;
+        border-radius: 1.5rem; }
+    .main-content-row p:nth-child(4) {
+      font-family: "Lato", sans-serif;
+      text-align: center;
+      font-size: 1.5rem;
+      line-height: 2rem;
+      width: 65%;
+      color: #494949;
+      background-color: #d3d3d3;
+      padding: 1rem 1.3rem;
+      margin-top: 4rem;
+      border-radius: 0.5rem; }
+    .main-content-row-bottom {
+      display: flex;
+      flex-direction: column; }
+      .main-content-row-bottom h3 {
+        font-family: "Lato", sans-serif;
+        font-size: 2.5rem;
+        background-color: #d3d3d3;
+        color: #ec5242;
+        margin-top: 2rem;
+        padding: 0.3rem;
+        border-radius: 0.5rem; }
+      .main-content-row-bottom p {
+        font-family: "Lato", sans-serif;
+        font-size: 1.4rem;
+        background-color: #d3d3d3;
+        color: #ec5242;
+        margin-top: 0.8rem;
+        padding: 0.3rem;
+        border-radius: 0.5rem;
+        width: fit-content; }
+
+.main-program {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: whitesmoke;
+  height: 35rem; }
+
 .main-about-content {
-  background-image: url("../assets/images/crowd2.jpg");
+  background-image: url("../assets/images/crowd.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -61,7 +149,11 @@
     .main-about-content-row h1 {
       font-family: Coco-semilight;
       font-size: 5rem;
-      color: white;
+      background-image: url("/assets/images/ticket-letters.jpg");
+      background-position: center;
+      background-size: contain;
+      color: transparent;
+      -webkit-background-clip: text;
       text-align: center;
       margin-bottom: 4rem; }
     .main-about-content-row a {
