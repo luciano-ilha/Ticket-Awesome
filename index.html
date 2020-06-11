@@ -3,15 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" type="image/ico" href="">
+  <link rel="shortcut icon" type="image/ico" href="assets/images/ticket-logo.png">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
   <title>Ticket Awesome</title>
 </head>
 <body>
+  <!-- NAVIGATION BAR -->
   <nav>
-    <div class="black-nav">
+    <div class="top-nav">
       <a href="#"><img class="nav-face-icon" src="./assets/images/facebook-icon.svg" alt="facebook icon"></a>
       <a href="#"><img class="nav-insta-icon" src="./assets/images/instagram-icon.svg" alt="instagram icon"></a>
       <a href="#"><img class="nav-twitter-icon" src="./assets/images/twitter-icon.png" alt="twitter icon"></a>
@@ -23,34 +24,77 @@
     <div class="bottom-nav">
       <div class="bottom-nav-left">
         <div class="bottom-nav-left-ticket-logo"></div>
-        <h1>Ticket Awesome</h1>
+        <a href="index.html"><h1>Ticket Awesome</h1></a>
       </div>
       <div class="bottom-nav-right">
         <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Program</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="tickets.html">Tickets</a></li>
           <li><a href="#">Join Membership</a></li>
-          <li><a href="#">Sponsor</a></li>
-          <li><a href="#">News</a></li>
+          <li><a href="#">Sponsors</a></li>
         </ul>
-        <button><img src="assets/images/cart-icon.png" alt="cart icon"><span>My Cart</span></button>
+        <a href="#"><button><img src="assets/images/cart-icon.png" alt="cart icon"><span>My Cart</span></button></a>
       </div>
     </div>
   </nav>
 
-  <!--Main Content -->
+  <!-- ABOUT MAIN CONTENT -->
   <main>
-    <div class="main-content">
-      <div class="main-content-row1">
-        <h1>Comin Up!!</h1>
-        <h2>Groove for Nation Festival!</h2>
-        <a href="#"><h3>You don't want to miss it!</h3></a>
-        <p>Groove for Nation Festival is the largest music festival in the south of the country and has been held since 1996, on Atlântida beach. More than 1,200 national and international attractions, of different styles, have already passed the stage of the event, taking to the planetariums more than 700 hours of music. Planeta Atlântida is the most awaited party of the gaucho summer and in 2020 promises to offer even more unforgettable experiences for all ages. Here we go? # PartiuPlaneta2020</p>
-        <p>Please contact us per E-mail for any further questions about our upcoming attractions!</p>
-        <span><a href="#">contact@ticketawesome.com</a></span>
-        <img src="assets/images/right-arrow-black-icon.png" alt="arrow icon">
+    <div class="main-about-content">
+      <a href="#"><img src="assets/images/menu-icon.png" alt="menu icon image" class="main-about-content-menu"></a>
+      <div class="main-about-content-row">
+        <h1>Groove for Nation Festival!</h1>
+        <a href="tickets.html"><h3>You don't want to miss that!</h3></a>
+        <p>Groove for Nation Festival is the largest music festival in the south of the country and has been held since 1996, on Atlântida beach. More than 1,200 national and international attractions, of different styles, have already passed the stage of the event, taking to the groovers more than 700 hours of music.<span> Groove for Nation is the most awaited party of the summer and in 2020 promises to offer even more unforgettable experiences for all ages.</span></p>
+        <p>Please contact us per E-mail for any further questions about our upcoming events!</p>
+        <div class="main-about-content-row-email">
+          <span><a href="#">contact@ticketawesome.com</a></span>
+          <img src="assets/images/right-arrow-black-icon.png" alt="arrow icon">
+      </div>
     </div>
     </div>
   </main>
+
+  <!--ABOUT PREVIOUS EVENTS -->
+  <section class="about-previous-events">
+    <div class="about-previous-events-row">
+      <h2>
+        See the past Groove for Nation Festival editions.
+      </h2>
+      <div></div>
+      <p>
+        Take a look at the last two Groove for Nation Festivals which took place in Sao Paulo and Curitiba.
+      </p>
+      <div class="about-previous-events-row-grid">
+        <a href="#">
+          <div class="about-previous-events-row-grid-item1">
+            <div class="about-previous-events-row-grid-item1-content">
+              <h1>2019</h1>
+              <p>Groove for Nation Festival in São Paulo</p>
+            </div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="about-previous-events-row-grid-item2">
+            <div class="about-previous-events-row-grid-item2-content">
+              <h1>2018</h1>
+              <p>Groove for Nation Festival in Curitiba</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!--ABOUT FOOTER -->
+  <footer class="black-footer-logo">
+    <a href="index.html"><img src="assets/images/ticket-logo.png" alt="ticket logo"></a>
+    <div class="black-footer-logo-right">
+      <p>
+        2020 Ticket Awesome Rights Reserved
+      </p>
+    </div>
+  </footer>
 </body>
 </html>
