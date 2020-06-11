@@ -121,10 +121,159 @@
 
 .main-program {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  text-align: center;
-  background-color: whitesmoke;
-  height: 35rem; }
+  justify-content: center;
+  background-color: #282B32;
+  height: 45rem; }
+  .main-program h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Coco-ultralight;
+    font-size: 1.8rem;
+    color: white;
+    margin-top: 5rem;
+    margin-bottom: 1rem; }
+  .main-program h1::after {
+    content: "";
+    margin-top: 1.5rem;
+    border: 0.1rem solid #ec5242;
+    width: 4rem; }
+  .main-program-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65%; }
+    .main-program-row-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: 1fr;
+      grid-gap: 0.5rem;
+      width: 100%; }
+      .main-program-row-grid-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        padding: 2rem;
+        text-align: center; }
+        .main-program-row-grid-item div {
+          background-color: white;
+          width: inherit;
+          height: inherit;
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          z-index: 0;
+          opacity: 20%; }
+        .main-program-row-grid-item img {
+          width: 4rem;
+          z-index: 1;
+          margin-bottom: 1.5rem;
+          filter: invert(100%);
+          padding-top: 4rem; }
+        .main-program-row-grid-item h3 {
+          font-family: Coco-semilight;
+          font-size: 1.1rem;
+          z-index: 1;
+          color: #ec5242;
+          margin-bottom: 1rem; }
+        .main-program-row-grid-item p {
+          font-family: "Lato", sans-serif;
+          font-size: 1rem;
+          line-height: 1.5rem;
+          z-index: 1;
+          color: white; }
+    .main-program-row a {
+      margin: 7rem 0; }
+      .main-program-row a h3 {
+        font-family: Coco-light;
+        font-size: 1rem;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: underline; }
+
+.featured {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .featured h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Coco-ultralight;
+    font-size: 1.8rem;
+    color: white;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    color: #4e4e4e; }
+  .featured h1::after {
+    content: "";
+    margin-top: 1.5rem;
+    border: 0.1rem solid #ec5242;
+    width: 4rem; }
+  .featured-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2.5rem;
+    width: 65%;
+    margin-bottom: 5rem; }
+    .featured-grid-item {
+      display: flex;
+      height: fit-content; }
+      .featured-grid-item-imgbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 33%;
+        height: fit-content;
+        margin-right: 1.3rem;
+        padding-top: 0.8rem;
+        padding-left: 0.9rem; }
+        .featured-grid-item-imgbox img {
+          width: 5rem; }
+        .featured-grid-item-imgbox div {
+          border-top: 0.5rem solid #ec5242;
+          border-left: 0.5rem solid #ec5242;
+          width: 3rem;
+          height: 3rem;
+          position: absolute;
+          top: 0;
+          left: 0; }
+        .featured-grid-item-imgbox .img8,
+        .featured-grid-item-imgbox .img2 {
+          width: 6rem; }
+        .featured-grid-item-imgbox .img7,
+        .featured-grid-item-imgbox .img4 {
+          width: 6.5rem; }
+      .featured-grid-item-right {
+        display: flex;
+        flex-direction: column; }
+        .featured-grid-item-right h2 {
+          font-family: Coco-light;
+          font-size: 1.2rem;
+          margin-bottom: 0.5rem; }
+        .featured-grid-item-right-p {
+          display: flex;
+          flex-direction: column;
+          font-family: "Lato", sans-serif;
+          font-style: italic;
+          font-size: 0.9rem;
+          color: #ec5242; }
+        .featured-grid-item-right-p::after {
+          content: "";
+          margin-top: 0.6rem;
+          border: 0.0625rem solid #d3d3d3;
+          width: 2rem; }
+        .featured-grid-item-right p:last-child {
+          font-family: "Lato", sans-serif;
+          font-size: 0.9rem;
+          line-height: 1.2rem;
+          margin-top: 0.6rem; }
 
 .main-about-content {
   background-image: url("../assets/images/crowd.jpg");
@@ -279,6 +428,72 @@
             font-family: Coco-light;
             font-size: 0.9rem; }
 
+.black-footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #272a31;
+  height: 13rem; }
+  .black-footer-logo img {
+    width: 7rem;
+    height: 7rem;
+    filter: invert(100%);
+    margin-right: 4rem; }
+  .black-footer-logo-right p {
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    color: white; }
+
+.top-about-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  background-color: #424244;
+  color: white;
+  display: none; }
+  .top-about-footer h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Coco-light;
+    font-size: 2rem;
+    margin-top: 3rem; }
+  .top-about-footer h1::after {
+    content: "";
+    margin-top: 1.5rem;
+    border: 0.0625rem solid #ec5242;
+    width: 2rem; }
+  .top-about-footer-row {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem; }
+    .top-about-footer-row img {
+      width: 10rem;
+      filter: invert(94%) sepia(4%) saturate(0%) hue-rotate(140deg) brightness(94%) contrast(84%);
+      margin-right: 3rem; }
+    .top-about-footer-row img:nth-child(5),
+    .top-about-footer-row img:nth-child(4) {
+      width: 6rem; }
+
+.bottom-about-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 13rem;
+  display: none; }
+  .bottom-about-footer img {
+    width: 7rem;
+    height: 7rem;
+    margin-right: 4rem; }
+  .bottom-about-footer-right p {
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    color: black; }
+
 .top-nav {
   font-family: "Lato", sans-serif;
   display: flex;
@@ -376,21 +591,53 @@
         position: relative;
         bottom: 0.2rem; }
 
-.black-footer-logo {
+.top-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  background-color: #424244;
+  color: white; }
+  .top-footer h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Coco-light;
+    font-size: 2rem;
+    margin-top: 3rem; }
+  .top-footer h1::after {
+    content: "";
+    margin-top: 1.5rem;
+    border: 0.0625rem solid #ec5242;
+    width: 2rem; }
+  .top-footer-row {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem; }
+    .top-footer-row img {
+      width: 10rem;
+      filter: invert(94%) sepia(4%) saturate(0%) hue-rotate(140deg) brightness(94%) contrast(84%);
+      margin-right: 3rem; }
+    .top-footer-row img:nth-child(5),
+    .top-footer-row img:nth-child(4) {
+      width: 6rem; }
+
+.bottom-footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #272a31;
+  background-color: white;
   height: 13rem; }
-  .black-footer-logo img {
+  .bottom-footer img {
     width: 7rem;
     height: 7rem;
-    filter: invert(100%);
     margin-right: 4rem; }
-  .black-footer-logo-right p {
+  .bottom-footer-right p {
     font-family: "Lato", sans-serif;
     font-size: 1rem;
-    color: white; }
+    color: black; }
 
 @media screen and (max-width: 1500px) {
   .top-nav ul {
@@ -520,4 +767,12 @@
         .about-previous-events-row-grid-item2-content p, .about-previous-events-row-grid-item1-content p {
           font-size: 1.3rem; }
   .black-footer-logo {
-    display: none; } }
+    display: none; }
+  .top-about-footer {
+    display: flex; }
+    .top-about-footer-row {
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center; }
+  .bottom-about-footer {
+    display: flex; } }

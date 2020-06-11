@@ -104,12 +104,209 @@
 // ABOUT - PREVIOUS EVENTS
 .main-program {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  text-align: center;
-  background-color: whitesmoke;
-  height: 35rem;
+  justify-content: center;
+  background-color: #282B32;
+  height: 45rem;
+
+  h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Coco-ultralight;
+    font-size: 1.8rem;
+    color: white;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+  }
+
+  h1::after {
+    content: "";
+    margin-top: 1.5rem;
+    border: .1rem solid $my-red;
+    width: 4rem;
+  }
 
   &-row {
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65%; 
+
+    &-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: 1fr;
+      grid-gap: 0.5rem;
+      width: 100%;
+
+      &-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        padding: 2rem;
+        text-align: center;
+
+        div {
+          background-color: white;
+          width: inherit;
+          height: inherit;
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          z-index: 0;
+          opacity: 20%;
+        }
+
+        img {
+          width: 4rem;
+          z-index: 1;
+          margin-bottom: 1.5rem;
+          filter: invert(100%);
+          padding-top: 4rem;
+        }
+
+        h3 {
+          font-family: Coco-semilight;
+          font-size: 1.1rem;
+          z-index: 1;
+          color: $my-red;
+          margin-bottom: 1rem;
+        }
+
+        p {
+          font-family: $font-lato;
+          font-size: 1rem;
+          line-height: 1.5rem;
+          z-index: 1;
+          color: white;
+        }
+      }
+    }
+
+    a {
+      margin: 7rem 0;
+
+      h3 {
+        font-family: Coco-light;
+        font-size: 1rem;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+// FEATURED ARTISTS
+.featured {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Coco-ultralight;
+    font-size: 1.8rem;
+    color: white;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    color: rgb(78, 78, 78);
+  }
+
+  h1::after {
+    content: "";
+    margin-top: 1.5rem;
+    border: .1rem solid $my-red;
+    width: 4rem;
+  }
+
+  &-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2.5rem;
+    width: 65%;
+    margin-bottom: 5rem;
+
+    &-item {
+      display: flex;
+      height: fit-content;
+
+      &-imgbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 33%;
+        height: fit-content;
+        margin-right: 1.3rem;
+        padding-top: 0.8rem;
+        padding-left: 0.9rem;
+        
+        img {
+          width: 5rem;
+        }
+
+        div {
+          border-top: 0.5rem solid $my-red;
+          border-left: 0.5rem solid $my-red;
+          width: 3rem;
+          height: 3rem;
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+
+        .img8,
+        .img2 {
+          width: 6rem;
+        }
+
+        .img7,
+        .img4 {
+          width: 6.5rem;
+        }
+      }
+
+      &-right {
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+          font-family: Coco-light;
+          font-size: 1.2rem;
+          margin-bottom: 0.5rem;
+        }
+
+        &-p {
+          display: flex;
+          flex-direction: column;
+          font-family: $font-lato;
+          font-style: italic;
+          font-size: 0.9rem;
+          color: $my-red;
+        }
+
+        &-p::after {
+          content: "";
+          margin-top: 0.6rem;
+          border: .0625rem solid $my-gray;
+          width: 2rem;
+        }
+
+        p:last-child {
+          font-family: $font-lato;
+          font-size: 0.9rem;
+          line-height: 1.2rem;
+          margin-top: 0.6rem;
+        }
+      }
+    }
   }
 }

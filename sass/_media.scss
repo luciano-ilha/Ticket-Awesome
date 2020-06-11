@@ -268,4 +268,18 @@
   .black-footer-logo {
     display: none;
   }
+
+  .top-about-footer {
+    display: flex;
+    
+    &-row {
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .bottom-about-footer {
+    display: flex;
+  }
 }
