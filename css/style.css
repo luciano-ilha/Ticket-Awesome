@@ -134,7 +134,7 @@ main .general-menu {
   height: fit-content;
   padding-top: 5rem;
   padding-bottom: 7rem; }
-  .main-program h1 {
+  .main-program h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -142,7 +142,7 @@ main .general-menu {
     font-size: 1.8rem;
     color: white;
     margin-bottom: 3rem; }
-  .main-program h1::after {
+  .main-program h2::after {
     content: "";
     margin-top: 1.5rem;
     border: 0.1rem solid #ec5242;
@@ -196,7 +196,9 @@ main .general-menu {
     text-transform: uppercase;
     text-decoration: underline; }
   .main-program-button-smscreen {
-    display: none; }
+    display: none;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 15px -2px rgba(0, 0, 0, 0.75); }
 
 .featured {
   display: flex;
@@ -204,7 +206,7 @@ main .general-menu {
   justify-content: center;
   align-items: center;
   padding: 6rem 0; }
-  .featured h1 {
+  .featured h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -213,7 +215,7 @@ main .general-menu {
     color: white;
     color: #4e4e4e;
     margin-bottom: 3rem; }
-  .featured h1::after {
+  .featured h2::after {
     content: "";
     margin-top: 1.5rem;
     border: 0.1rem solid #ec5242;
@@ -362,13 +364,13 @@ main .general-menu {
     flex-direction: column;
     align-items: center;
     margin: 0 auto; }
-    .about-previous-events-row h2 {
+    .about-previous-events-row-title {
       display: flex;
       flex-direction: column;
       align-items: center;
       font-family: Coco-semilight;
       font-size: 1.5rem; }
-    .about-previous-events-row h2::after {
+    .about-previous-events-row-title::after {
       content: "";
       margin-top: 1.5rem;
       border: 0.125rem solid #ec5242;
@@ -401,7 +403,7 @@ main .general-menu {
           height: 100%;
           background: #272a31;
           background: linear-gradient(90deg, #272a31 4%, rgba(160, 67, 60, 0.6) 21%, rgba(200, 75, 63, 0.6) 34%, rgba(236, 82, 66, 0.6) 50%, rgba(160, 67, 60, 0.6) 75%, #272a31 96%); }
-          .about-previous-events-row-grid-item1-content h1 {
+          .about-previous-events-row-grid-item1-content h2 {
             font-family: "Lato", sans-serif;
             font-size: 2rem;
             color: white; }
@@ -425,7 +427,7 @@ main .general-menu {
           height: 100%;
           background: #272a31;
           background: linear-gradient(90deg, #272a31 4%, rgba(160, 67, 60, 0.6) 21%, rgba(200, 75, 63, 0.6) 34%, rgba(236, 82, 66, 0.6) 50%, rgba(160, 67, 60, 0.6) 75%, #272a31 96%); }
-          .about-previous-events-row-grid-item2-content h1 {
+          .about-previous-events-row-grid-item2-content h2 {
             font-family: "Lato", sans-serif;
             font-size: 2rem;
             color: white; }
@@ -510,7 +512,7 @@ main .general-menu {
     width: 3.3rem;
     filter: invert(85%) sepia(0%) saturate(2403%) hue-rotate(144deg) brightness(104%) contrast(86%);
     margin-left: 2rem; }
-  .tickets h1 {
+  .tickets h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -519,7 +521,7 @@ main .general-menu {
     color: white;
     color: #4e4e4e;
     margin-bottom: 3rem; }
-  .tickets h1::after {
+  .tickets h2::after {
     content: "";
     margin-top: 1.5rem;
     border: 0.1rem solid #ec5242;
@@ -626,7 +628,7 @@ main .general-menu {
       margin: 0.4rem 2rem 0.4rem 9rem;
       position: relative;
       bottom: 1.3rem; }
-    .bottom-nav-left h1 {
+    .bottom-nav-left h2 {
       font-family: Coco-light;
       font-size: 2rem;
       color: white; }
@@ -902,7 +904,7 @@ main .general-menu {
     display: none; }
   .main-program-button-smscreen {
     display: inline-block;
-    font-family: Coco-ultralight;
+    font-family: Coco-trial;
     font-size: 1.5rem;
     line-height: 2rem;
     margin-top: 5rem;

@@ -121,7 +121,7 @@ main {
   padding-top: 5rem;
   padding-bottom: 7rem;
 
-  h1 {
+  h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -131,7 +131,7 @@ main {
     margin-bottom: 3rem;
   }
 
-  h1::after {
+  h2::after {
     content: "";
     margin-top: 1.5rem;
     border: .1rem solid $my-red;
@@ -202,6 +202,10 @@ main {
 
   &-button-smscreen {
     display: none;
+    text-transform: uppercase;
+    -webkit-box-shadow: 5px 5px 15px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 15px -2px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 15px -2px rgba(0,0,0,0.75);
   }
 }
 
@@ -213,7 +217,7 @@ main {
   align-items: center;
   padding: 6rem 0;
 
-  h1 {
+  h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -224,7 +228,7 @@ main {
     margin-bottom: 3rem;
   }
 
-  h1::after {
+  h2::after {
     content: "";
     margin-top: 1.5rem;
     border: .1rem solid $my-red;

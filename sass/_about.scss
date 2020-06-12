@@ -110,7 +110,7 @@
     align-items: center;
     margin: 0 auto;
 
-    h2 {
+    &-title {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -118,7 +118,7 @@
       font-size: 1.5rem;
     }
 
-    h2::after {
+    &-title::after {
       content: "";
       margin-top: 1.5rem;
       border: .125rem solid $my-red;
@@ -158,7 +158,7 @@
           background: rgb(39,42,49);
           background: linear-gradient(90deg, rgba(39,42,49,1) 4%, rgba(160,67,60,0.6) 21%, rgba(200,75,63,0.6) 34%, rgba(236,82,66,0.6) 50%, rgba(160,67,60,0.6) 75%, rgba(39,42,49,1) 96%);
 
-          h1 {
+          h2 {
             font-family: $font-lato;
             font-size: 2rem;
             color: white;
@@ -190,7 +190,7 @@
           background: rgb(39,42,49);
           background: linear-gradient(90deg, rgba(39,42,49,1) 4%, rgba(160,67,60,0.6) 21%, rgba(200,75,63,0.6) 34%, rgba(236,82,66,0.6) 50%, rgba(160,67,60,0.6) 75%, rgba(39,42,49,1) 96%);
 
-          h1 {
+          h2 {
             font-family: $font-lato;
             font-size: 2rem;
             color: white;
