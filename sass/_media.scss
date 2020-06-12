@@ -156,6 +156,15 @@
       }
     }
   }
+
+  // TICKETS
+  .tickets {
+    &-row {
+      &-grid {
+        width: 85%;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -185,6 +194,15 @@
     &-row {
       p:nth-child(3) {
         width: 50rem;
+      }
+    }
+  }
+
+  // TICKETS
+  .tickets {
+    &-row {
+      &-grid {
+        width: 95%;
       }
     }
   }
@@ -296,6 +314,15 @@
     &-row {
       &-grid {
         width: 45rem;
+      }
+    }
+  }
+
+  // TICKETS
+  .tickets {
+    &-row {
+      &-grid {
+        width: 100%;
       }
     }
   }
@@ -507,6 +534,33 @@
 
       p {
         width:90%;
+      }
+    }
+  }
+
+  // TICKETS
+  .tickets {
+    padding-top: 9rem;
+
+    &-menu {
+      display: block;
+      position: absolute;
+      top: 1.5rem;
+      left: 0;
+      width: 3.3rem;
+      filter: invert(85%) sepia(0%) saturate(2403%) hue-rotate(144deg) brightness(104%) contrast(86%);
+      margin-left: 2rem;
+    }
+
+    &-row {
+      width: 95%;
+
+      &-grid {
+        form,
+        p {
+          font-size: 1rem;
+          line-height: 1.3rem;
+        }
       }
     }
   }
