@@ -78,4 +78,23 @@
       }
     }
   }
+
+  &-button {
+    display: inline-block;
+    font-family: Coco-trial;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-top: 5rem;
+    border: 0.2rem solid $my-gray;
+    border-radius: 0.5rem;
+    background-color: $my-red;
+    color: white;
+    padding: 2rem 1rem;
+    cursor: pointer;
+    width: 50%;
+    text-transform: uppercase;
+    -webkit-box-shadow: 5px 5px 15px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 15px -2px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 15px -2px rgba(0,0,0,0.75);
+  }
 }

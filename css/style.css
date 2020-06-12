@@ -559,6 +559,21 @@ main .general-menu {
         background-color: #eeeeee; }
       .tickets-row-grid p:nth-child(3) {
         grid-column: 3 / span 2; }
+  .tickets-button {
+    display: inline-block;
+    font-family: Coco-trial;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-top: 5rem;
+    border: 0.2rem solid #d3d3d3;
+    border-radius: 0.5rem;
+    background-color: #ec5242;
+    color: white;
+    padding: 2rem 1rem;
+    cursor: pointer;
+    width: 50%;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 15px -2px rgba(0, 0, 0, 0.75); }
 
 .top-nav {
   font-family: "Lato", sans-serif;
@@ -965,6 +980,8 @@ main .general-menu {
       .tickets-row-grid p {
         font-size: 1rem;
         line-height: 1.3rem; }
+    .tickets-button {
+      width: 90%; }
   .black-footer-logo {
     display: none; }
   .top-about-footer {
