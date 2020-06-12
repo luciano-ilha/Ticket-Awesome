@@ -1,4 +1,13 @@
-// ABOUT - MAIN CONTENT
+// INDEX - MAIN CONTENT
+main {
+  .general-menu {
+    display: none;
+    width: 3.3rem;
+    filter: invert(85%) sepia(0%) saturate(2403%) hue-rotate(144deg) brightness(104%) contrast(86%);
+    margin-left: 2rem;
+  }
+}
+
 .main-content {
   background-image: url("../assets/images/crowd-main.jpg");
   background-repeat: no-repeat;
@@ -6,6 +15,8 @@
   background-size: cover;
   height: 68rem;
   opacity: 90%;
+  height: fit-content;
+  padding: 10rem 0;
 
   &-menu {
     display: none;
@@ -20,7 +31,6 @@
     align-items: flex-start;
     width: 70%;
     margin: 0 auto;
-    padding-top: 10rem;
 
     h1 {
       font-family: Coco-ultralight;
@@ -62,7 +72,6 @@
   
     p:nth-child(4) {
       font-family: $font-lato;
-      text-align: center;
       font-size: 1.5rem;
       line-height: 2rem;
       width: 65%;
@@ -101,14 +110,16 @@
   }
 }
 
-// ABOUT - PREVIOUS EVENTS
+// INDEX - MAIN PROGRAM
 .main-program {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: #282B32;
-  height: 45rem;
+  height: fit-content;
+  padding-top: 5rem;
+  padding-bottom: 7rem;
 
   h1 {
     display: flex;
@@ -117,8 +128,7 @@
     font-family: Coco-ultralight;
     font-size: 1.8rem;
     color: white;
-    margin-top: 5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
   }
 
   h1::after {
@@ -133,7 +143,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 65%; 
+    width: 78%; 
+    height: fit-content;
 
     &-grid {
       display: grid;
@@ -141,32 +152,24 @@
       grid-template-rows: 1fr;
       grid-gap: 0.5rem;
       width: 100%;
-
+      height: fit-content;
+      justify-content: space-around;
+      
       &-item {
         display: flex;
         flex-direction: column;
         align-items: center;
         position: relative;
-        padding: 2rem;
         text-align: center;
-
-        div {
-          background-color: white;
-          width: inherit;
-          height: inherit;
-          position: absolute;
-          height: 100%;
-          width: 100%;
-          z-index: 0;
-          opacity: 20%;
-        }
+        padding: 1rem;
+        background-color: rgba(255, 255, 255, 0.2);
+        height: 100%;
 
         img {
           width: 4rem;
           z-index: 1;
           margin-bottom: 1.5rem;
           filter: invert(100%);
-          padding-top: 4rem;
         }
 
         h3 {
@@ -186,27 +189,29 @@
         }
       }
     }
+  }
 
-    a {
-      margin: 7rem 0;
+  &-bottom-link {
+    margin-top: 7rem;
+    font-family: Coco-light;
+    font-size: 1rem;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
 
-      h3 {
-        font-family: Coco-light;
-        font-size: 1rem;
-        color: white;
-        text-transform: uppercase;
-        text-decoration: underline;
-      }
-    }
+  &-button-smscreen {
+    display: none;
   }
 }
 
-// FEATURED ARTISTS
+// INDEX - FEATURED ARTISTS
 .featured {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 6rem 0;
 
   h1 {
     display: flex;
@@ -215,9 +220,8 @@
     font-family: Coco-ultralight;
     font-size: 1.8rem;
     color: white;
-    margin-top: 5rem;
-    margin-bottom: 3rem;
     color: rgb(78, 78, 78);
+    margin-bottom: 3rem;
   }
 
   h1::after {
@@ -231,12 +235,15 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2.5rem;
-    width: 65%;
-    margin-bottom: 5rem;
+    width: 75%;
+    
+    a {
+      display: flex;
+      color: black;
+    }
 
     &-item {
       display: flex;
-      height: fit-content;
 
       &-imgbox {
         display: flex;
@@ -310,3 +317,5 @@
     }
   }
 }
+
+// INDEX - FOOTER (see at the bottom of thestyle.scss file)

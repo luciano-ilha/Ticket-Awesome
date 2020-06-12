@@ -4,7 +4,7 @@
 @import 'index';
 @import 'about';
 
-// TOP NAVBAR
+// GENERAL NAVIGATION
 .top-nav {
   font-family: $font-lato;
   display: flex;
@@ -141,7 +141,7 @@
   }
 }
 
-// FOOTER
+// MAIN FOOTER
 .top-footer {
   display: flex;
   flex-direction: column;
@@ -150,6 +150,8 @@
   height: fit-content;
   background-color: #424244;
   color: white;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 
   h1 {
     display: flex;
@@ -157,7 +159,7 @@
     align-items: center;
     font-family: Coco-light;
     font-size: 2rem;
-    margin-top: 3rem;
+    margin-bottom: 2rem;
   }
 
   h1::after {
@@ -169,9 +171,10 @@
 
   &-row {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    margin-top: 2rem;
-    margin-bottom: 4rem;
+    width: 90%;
   
     img {
       width: 10rem;
