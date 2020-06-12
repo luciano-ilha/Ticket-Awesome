@@ -1,9 +1,9 @@
 # Ticket Awesome
 
-> A ticket sale website.
+> This project consists on a ticket sales website for shows and events, with 3 pages in totla, it was done with HTML, CSS Positioning and Layout (Including Grid and Flexbox) and Media Query. 3 Pages completely responsive!
 
 
-![Screenshot]()
+![Screenshot](assets/images/project-screenshot.png)
 
 # Built With #
 
@@ -12,7 +12,7 @@
 - Google fonts
  
 # Live Demo #
-[Live Demo Link]()
+[Live Demo Link](https://rawcdn.githack.com/luciano-ilha/Ticket-Awesome/f12d41595a1e66bffaee5f39fcf36590e8822ccd/index.html)
  
 # Prerequisites #
 All Modern web browsers like:
