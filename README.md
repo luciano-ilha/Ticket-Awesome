@@ -3,7 +3,7 @@
 > This project consists on a ticket sales website for shows and events, with 3 pages in totla, it was done with HTML, CSS Positioning and Layout (Including Grid and Flexbox) and Media Query. 3 Pages completely responsive!
 
 
-![Screenshot](/assets/images/project-screenshot.png)
+![Screenshot](assets/project-screenshot)
 
 # Built With #
 
