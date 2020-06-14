@@ -1,48 +1,59 @@
 @font-face {
   font-family: Coco-thin;
-  src: url("../assets/fonts/Cocogoose Pro Thin-trial.ttf"); }
+  src: url("../assets/fonts/Cocogoose\ Pro\ Thin-trial.ttf");
+}
 
 @font-face {
   font-family: Coco-ultralight;
-  src: url("../assets/fonts/Cocogoose Pro Ultralight-trial.ttf"); }
+  src: url("../assets/fonts/Cocogoose\ Pro\ Ultralight-trial.ttf");
+}
 
 @font-face {
   font-family: Coco-light;
-  src: url("../assets/fonts/Cocogoose Pro Light-trial.ttf"); }
+  src: url("../assets/fonts/Cocogoose\ Pro\ Light-trial.ttf");
+}
 
 @font-face {
   font-family: Coco-semilight;
-  src: url("../assets/fonts/Cocogoose Pro Semilight-trial.ttf"); }
+  src: url("../assets/fonts/Cocogoose\ Pro\ Semilight-trial.ttf");
+}
 
 @font-face {
   font-family: Coco-trial;
-  src: url("../assets/fonts/Cocogoose Pro-trial.ttf"); }
+  src: url("../assets/fonts/Cocogoose\ Pro-trial.ttf");
+}
 
 @font-face {
   font-family: Coco-thin-italic;
-  src: url("../assets/fonts/Cocogoose Pro Thin Italic-trial.ttf"); }
+  src: url("../assets/fonts/Cocogoose\ Pro\ Thin\ Italic-trial.ttf");
+}
 
 @font-face {
   font-family: Coco-ultralight-italic;
-  src: url("../assets/fonts/Cocogoose Pro UltraLight Italic-trial.ttf"); }
+  src: url("../assets/fonts/Cocogoose\ Pro\ UltraLight\ Italic-trial.ttf");
+}
 
 @font-face {
   font-family: Coco-light-italic;
-  src: url("../assets/fonts/Cocogoose Pro Light Italic-trial.ttf"); }
+  src: url("../assets/fonts/Cocogoose\ Pro\ Light\ Italic-trial.ttf");
+}
 
 @font-face {
   font-family: Coco-semilight-italic;
-  src: url("../assets/fonts/Cocogoose Pro Semilight Italic-trial.ttf"); }
+  src: url("../assets/fonts/Cocogoose\ Pro\ Semilight\ Italic-trial.ttf");
+}
 
 @font-face {
   font-family: Coco-trial-italic;
-  src: url("../assets/fonts/Cocogoose Pro Italic-trial.ttf"); }
+  src: url("../assets/fonts/Cocogoose\ Pro\ Italic-trial.ttf");
+}
 
 main .general-menu {
   display: none;
   width: 3.3rem;
   filter: invert(85%) sepia(0%) saturate(2403%) hue-rotate(144deg) brightness(104%) contrast(86%);
-  margin-left: 2rem; }
+  margin-left: 2rem;
+}
 
 .main-content {
   background-image: url("../assets/images/crowd-main.jpg");
@@ -52,18 +63,24 @@ main .general-menu {
   height: 68rem;
   opacity: 90%;
   height: fit-content;
-  padding: 10rem 0; }
+  padding: 10rem 0;
+}
+
   .main-content-menu {
     display: none;
     width: 3.3rem;
     filter: invert(85%) sepia(0%) saturate(2403%) hue-rotate(144deg) brightness(104%) contrast(86%);
-    margin-left: 2rem; }
+    margin-left: 2rem;
+  }
+
   .main-content-row {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 70%;
-    margin: 0 auto; }
+    margin: 0 auto;
+  }
+
     .main-content-row h1 {
       font-family: Coco-ultralight;
       font-size: 3rem;
@@ -73,7 +90,9 @@ main .general-menu {
       color: transparent;
       -webkit-background-clip: text;
       margin-bottom: 2rem;
-      padding-top: 0.5rem; }
+      padding-top: 0.5rem;
+    }
+
     .main-content-row h2 {
       font-family: Coco-semilight;
       font-size: 6rem;
@@ -83,9 +102,13 @@ main .general-menu {
       color: transparent;
       -webkit-background-clip: text;
       margin-bottom: 4rem;
-      padding-top: 1rem; }
+      padding-top: 1rem;
+    }
+
     .main-content-row a {
-      color: white; }
+      color: white;
+    }
+
       .main-content-row a h3 {
         font-family: Coco-semilight;
         font-size: 2.5rem;
@@ -93,7 +116,9 @@ main .general-menu {
         padding: 1.5rem 1.5rem 1rem;
         margin-left: 6rem;
         border: 0.1875rem solid #272a31;
-        border-radius: 1.5rem; }
+        border-radius: 1.5rem;
+      }
+
     .main-content-row p:nth-child(4) {
       font-family: "Lato", sans-serif;
       font-size: 1.5rem;
@@ -103,10 +128,14 @@ main .general-menu {
       background-color: #d3d3d3;
       padding: 1rem 1.3rem;
       margin-top: 4rem;
-      border-radius: 0.5rem; }
+      border-radius: 0.5rem;
+    }
+
     .main-content-row-bottom {
       display: flex;
-      flex-direction: column; }
+      flex-direction: column;
+    }
+
       .main-content-row-bottom h3 {
         font-family: "Lato", sans-serif;
         font-size: 2.5rem;
@@ -114,7 +143,9 @@ main .general-menu {
         color: #ec5242;
         margin-top: 2rem;
         padding: 0.3rem;
-        border-radius: 0.5rem; }
+        border-radius: 0.5rem;
+      }
+
       .main-content-row-bottom p {
         font-family: "Lato", sans-serif;
         font-size: 1.4rem;
@@ -123,7 +154,8 @@ main .general-menu {
         margin-top: 0.8rem;
         padding: 0.3rem;
         border-radius: 0.5rem;
-        width: fit-content; }
+        width: fit-content;
+      }
 
 .main-program {
   display: flex;
