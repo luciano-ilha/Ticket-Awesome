@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: Coco-ultralight;
-  src: url("../assets/fonts/Cocogoose Pro Ultralight-trial.ttf");
+  src: url("../assets/fonts/Cocogoose\ Pro\ Ultralight-trial.ttf");
 }
 
 @font-face {
@@ -108,6 +108,24 @@ main .general-menu {
   color: white;
 }
 
+.main-content-row-bottom h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 2.5rem;
+  background-color: #d3d3d3;
+  color: #ec5242;
+  margin-top: 2rem;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+}
+
+.main-program-row-grid-item h3 {
+  font-family: Coco-semilight;
+  font-size: 1.1rem;
+  z-index: 1;
+  color: #ec5242;
+  margin-bottom: 1rem;
+}
+
 .main-content-row a h3 {
   font-family: Coco-semilight;
   font-size: 2.5rem;
@@ -116,6 +134,25 @@ main .general-menu {
   margin-left: 6rem;
   border: 0.1875rem solid #272a31;
   border-radius: 1.5rem;
+}
+
+.main-content-row-bottom p {
+  font-family: "Lato", sans-serif;
+  font-size: 1.4rem;
+  background-color: #d3d3d3;
+  color: #ec5242;
+  margin-top: 0.8rem;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  width: fit-content;
+}
+
+.main-program-row-grid-item p {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  z-index: 1;
+  color: white;
 }
 
 .main-content-row p:nth-child(4) {
@@ -133,27 +170,6 @@ main .general-menu {
 .main-content-row-bottom {
   display: flex;
   flex-direction: column;
-}
-
-.main-content-row-bottom h3 {
-  font-family: "Lato", sans-serif;
-  font-size: 2.5rem;
-  background-color: #d3d3d3;
-  color: #ec5242;
-  margin-top: 2rem;
-  padding: 0.3rem;
-  border-radius: 0.5rem;
-}
-
-.main-content-row-bottom p {
-  font-family: "Lato", sans-serif;
-  font-size: 1.4rem;
-  background-color: #d3d3d3;
-  color: #ec5242;
-  margin-top: 0.8rem;
-  padding: 0.3rem;
-  border-radius: 0.5rem;
-  width: fit-content;
 }
 
 .main-program {
@@ -219,22 +235,6 @@ main .general-menu {
   z-index: 1;
   margin-bottom: 1.5rem;
   filter: invert(100%);
-}
-
-.main-program-row-grid-item h3 {
-  font-family: Coco-semilight;
-  font-size: 1.1rem;
-  z-index: 1;
-  color: #ec5242;
-  margin-bottom: 1rem;
-}
-
-.main-program-row-grid-item p {
-  font-family: "Lato", sans-serif;
-  font-size: 1rem;
-  line-height: 1.5rem;
-  z-index: 1;
-  color: white;
 }
 
 .main-program-bottom-link {
