@@ -1235,6 +1235,21 @@ main .general-menu {
     font-size: 1.3rem;
   }
 
+  .about-previous-events-row-grid-item2-content p,
+  .about-previous-events-row-grid-item1-content p {
+    font-size: 1.3rem;
+  }
+
+  .about-previous-events-row p {
+    width: 90%;
+  }
+
+  .tickets-row-grid form,
+  .tickets-row-grid p {
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+
   .main-content-row p:nth-child(4) {
     font-size: 1.3rem;
     line-height: 1.8rem;
@@ -1245,6 +1260,10 @@ main .general-menu {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(5, 1fr);
     grid-gap: 1.2rem;
+  }
+
+  .main-about-content-row-email span a {
+    font-size: 1.1rem;
   }
 
   .main-program-row-grid a:nth-child(4) {
@@ -1285,6 +1304,15 @@ main .general-menu {
 
   .top-footer-row img {
     width: 9.5rem;
+  }
+
+  .top-about-footer-row img {
+    width: 8rem;
+  }
+
+  .bottom-about-footer img {
+    width: 5rem;
+    height: 5rem;
   }
 
   .bottom-footer a img {
@@ -1330,10 +1358,6 @@ main .general-menu {
     margin-top: 2.4rem;
   }
 
-  .main-about-content-row-email span a {
-    font-size: 1.1rem;
-  }
-
   .about-previous-events {
     padding: 20rem 0;
     height: 60rem;
@@ -1355,15 +1379,6 @@ main .general-menu {
     font-size: 3rem;
   }
 
-  .about-previous-events-row-grid-item2-content p,
-  .about-previous-events-row-grid-item1-content p {
-    font-size: 1.3rem;
-  }
-
-  .about-previous-events-row p {
-    width: 90%;
-  }
-
   .tickets {
     padding-top: 9rem;
   }
@@ -1380,12 +1395,6 @@ main .general-menu {
 
   .tickets-row {
     width: 95%;
-  }
-
-  .tickets-row-grid form,
-  .tickets-row-grid p {
-    font-size: 1rem;
-    line-height: 1.3rem;
   }
 
   .tickets-button {
@@ -1406,10 +1415,6 @@ main .general-menu {
     justify-content: center;
   }
 
-  .top-about-footer-row img {
-    width: 8rem;
-  }
-
   .top-about-footer-row img:nth-child(5),
   .top-about-footer-row img:nth-child(4) {
     width: 5rem;
@@ -1420,8 +1425,4 @@ main .general-menu {
     height: 11rem;
   }
 
-  .bottom-about-footer img {
-    width: 5rem;
-    height: 5rem;
-  }
 }
