@@ -126,6 +126,10 @@ main .general-menu {
   margin-bottom: 1rem;
 }
 
+.main-content-row-bottom h3 {
+  font-size: 2.3rem;
+}
+
 .main-content-row a h3 {
   font-family: Coco-semilight;
   font-size: 2.5rem;
@@ -186,6 +190,26 @@ main .general-menu {
 }
 
 .bottom-about-footer-right p {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  color: black;
+}
+
+.tickets-row-grid form,
+.tickets-row-grid p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  height: 5rem;
+  border: 0.0625rem solid #d3d3d3;
+  padding: 0 1rem;
+}
+
+.bottom-footer-right p {
   font-family: "Lato", sans-serif;
   font-size: 1rem;
   color: black;
@@ -470,9 +494,19 @@ main .general-menu {
   align-items: flex-end;
 }
 
+.top-nav a {
+  color: white;
+}
+
 .main-about-content-row-email span a {
   font-family: "Lato", sans-serif;
   font-size: 1.1rem;
+}
+
+.bottom-nav-right ul li a {
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+  color: white;
 }
 
 .main-about-content-row-email span a:hover {
@@ -640,13 +674,38 @@ main .general-menu {
   margin-right: 4rem;
 }
 
+.top-nav img {
+  margin: 0 0.5rem;
+  filter: invert(100%);
+}
+
+.bottom-nav-right button img {
+  width: 1.5rem;
+  margin-right: 0.5rem;
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  filter: invert(100%);
+}
+
+.top-footer-row img {
+  width: 10rem;
+  filter: invert(94%) sepia(4%) saturate(0%) hue-rotate(140deg) brightness(94%) contrast(84%);
+  margin-right: 3rem;
+}
+
+.bottom-footer img {
+  width: 7rem;
+  height: 7rem;
+  margin-right: 4rem;
+}
+
 .top-about-footer-row img:nth-child(5),
 .top-about-footer-row img:nth-child(4) {
   width: 6rem;
 }
 
 .bottom-about-footer {
-  display: flex;
   justify-content: center;
   align-items: center;
   background-color: white;
@@ -703,20 +762,6 @@ main .general-menu {
   border: 0.5rem solid #ec5242;
 }
 
-.tickets-row-grid form,
-.tickets-row-grid p {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family: "Lato", sans-serif;
-  font-size: 1.1rem;
-  line-height: 1.5rem;
-  height: 5rem;
-  border: 0.0625rem solid #d3d3d3;
-  padding: 0 1rem;
-}
-
 .tickets-row-grid form label {
   margin-bottom: 0.5rem;
 }
@@ -759,11 +804,6 @@ main .general-menu {
   color: white;
 }
 
-.top-nav img {
-  margin: 0 0.5rem;
-  filter: invert(100%);
-}
-
 .top-nav ul {
   display: flex;
   align-items: center;
@@ -771,12 +811,13 @@ main .general-menu {
   margin-left: 2rem;
 }
 
-.top-nav li:first-child {
-  margin-right: 1.5rem;
+.bottom-nav-right ul li {
+  margin-left: 1.3rem;
+  text-align: center;
 }
 
-.top-nav a {
-  color: white;
+.top-nav li:first-child {
+  margin-right: 1.5rem;
 }
 
 .nav-twitter-icon,
@@ -834,17 +875,6 @@ main .general-menu {
   margin-right: 3rem;
 }
 
-.bottom-nav-right ul li {
-  margin-left: 1.3rem;
-  text-align: center;
-}
-
-.bottom-nav-right ul li a {
-  font-family: "Lato", sans-serif;
-  font-size: 1.2rem;
-  color: white;
-}
-
 .bottom-nav-right ul li a:hover {
   color: #d3d3d3;
 }
@@ -864,22 +894,13 @@ main .general-menu {
   box-shadow: 6px 6px 23px -1px rgba(0, 0, 0, 0.75);
 }
 
-.bottom-nav-right button img {
-  width: 1.5rem;
-  margin-right: 0.5rem;
-  position: absolute;
-  top: 0.5rem;
-  left: 0.5rem;
-  filter: invert(100%);
+.bottom-nav-right button span {
+  position: relative;
+  bottom: 0.2rem;
 }
 
 .bottom-nav-right button span:hover {
   filter: invert(43%) sepia(29%) saturate(3059%) hue-rotate(334deg) brightness(95%) contrast(95%);
-}
-
-.bottom-nav-right button span {
-  position: relative;
-  bottom: 0.2rem;
 }
 
 .top-footer {
@@ -918,12 +939,6 @@ main .general-menu {
   width: 90%;
 }
 
-.top-footer-row img {
-  width: 10rem;
-  filter: invert(94%) sepia(4%) saturate(0%) hue-rotate(140deg) brightness(94%) contrast(84%);
-  margin-right: 3rem;
-}
-
 .top-footer-row img:nth-child(5),
 .top-footer-row img:nth-child(4) {
   width: 6rem;
@@ -935,18 +950,6 @@ main .general-menu {
   align-items: center;
   background-color: white;
   height: 13rem;
-}
-
-.bottom-footer img {
-  width: 7rem;
-  height: 7rem;
-  margin-right: 4rem;
-}
-
-.bottom-footer-right p {
-  font-family: "Lato", sans-serif;
-  font-size: 1rem;
-  color: black;
 }
 
 @media screen and (max-width: 1500px) {
@@ -976,6 +979,10 @@ main .general-menu {
 
   .bottom-nav-right ul {
     margin-right: 2rem;
+  }
+
+  .main-about-content-row a {
+    color: white;
   }
 
   .bottom-nav-right li a {
@@ -1010,10 +1017,6 @@ main .general-menu {
     width: 76%;
   }
 
-  .main-content-row-bottom h3 {
-    font-size: 2.3rem;
-  }
-
   .main-program-row {
     width: 95%;
   }
@@ -1033,10 +1036,6 @@ main .general-menu {
   .main-about-content-row h1 {
     font-size: 4.5rem;
     margin-bottom: 3rem;
-  }
-
-  .main-about-content-row a {
-    color: white;
   }
 
   .main-about-content-row a h3 {
