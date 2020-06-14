@@ -126,10 +126,6 @@ main .general-menu {
   margin-bottom: 1rem;
 }
 
-.main-content-row-bottom h3 {
-  font-size: 2.3rem;
-}
-
 .main-content-row a h3 {
   font-family: Coco-semilight;
   font-size: 2.5rem;
@@ -679,15 +675,6 @@ main .general-menu {
   filter: invert(100%);
 }
 
-.bottom-nav-right button img {
-  width: 1.5rem;
-  margin-right: 0.5rem;
-  position: absolute;
-  top: 0.5rem;
-  left: 0.5rem;
-  filter: invert(100%);
-}
-
 .top-footer-row img {
   width: 10rem;
   filter: invert(94%) sepia(4%) saturate(0%) hue-rotate(140deg) brightness(94%) contrast(84%);
@@ -698,6 +685,15 @@ main .general-menu {
   width: 7rem;
   height: 7rem;
   margin-right: 4rem;
+}
+
+.bottom-nav-right button img {
+  width: 1.5rem;
+  margin-right: 0.5rem;
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  filter: invert(100%);
 }
 
 .top-about-footer-row img:nth-child(5),
@@ -1011,6 +1007,13 @@ main .general-menu {
     margin-left: 3rem;
   }
 
+  .main-about-content-row p {
+    font-size: 1.1rem;
+    color: white;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+
   .main-content-row p:nth-child(4) {
     font-size: 1.3rem;
     line-height: 2rem;
@@ -1040,13 +1043,6 @@ main .general-menu {
 
   .main-about-content-row a h3 {
     font-size: 2rem;
-  }
-
-  .main-about-content-row p {
-    font-size: 1.1rem;
-    color: white;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
   }
 
   .main-about-content-row p:nth-child(3) {
@@ -1143,22 +1139,22 @@ main .general-menu {
     font-size: 4rem;
   }
 
+  .main-content-row-bottom h3 {
+    font-size: 2rem;
+  }
+
   .main-content-row a h3 {
     font-size: 1.6rem;
     margin-left: 2rem;
   }
 
+  .main-content-row-bottom p {
+    font-size: 1.3rem;
+  }
+
   .main-content-row p:nth-child(4) {
     width: 80%;
     font-size: 1.2rem;
-  }
-
-  .main-content-row-bottom h3 {
-    font-size: 2rem;
-  }
-
-  .main-content-row-bottom p {
-    font-size: 1.3rem;
   }
 
   .main-program-row-grid {
@@ -1226,23 +1222,23 @@ main .general-menu {
     margin-bottom: 0.5rem;
   }
 
+  .main-content-row-bottom h3 {
+    font-size: 1.8rem;
+  }
+
   .main-content-row a h3 {
     font-size: 1.4rem;
     margin-left: 0;
+  }
+
+  .main-content-row-bottom p {
+    font-size: 1.3rem;
   }
 
   .main-content-row p:nth-child(4) {
     font-size: 1.3rem;
     line-height: 1.8rem;
     width: 100%;
-  }
-
-  .main-content-row-bottom h3 {
-    font-size: 1.8rem;
-  }
-
-  .main-content-row-bottom p {
-    font-size: 1.3rem;
   }
 
   .main-program-row-grid {
@@ -1291,15 +1287,15 @@ main .general-menu {
     width: 9.5rem;
   }
 
-  .top-footer-row img:nth-child(5),
-  .top-footer-row img:nth-child(4) {
-    width: 5rem;
-  }
-
   .bottom-footer a img {
     width: 6rem;
     height: 6rem;
     margin-right: 2rem;
+  }
+
+  .top-footer-row img:nth-child(5),
+  .top-footer-row img:nth-child(4) {
+    width: 5rem;
   }
 
   .main-about-content {
