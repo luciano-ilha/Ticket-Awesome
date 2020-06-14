@@ -35,7 +35,6 @@
       margin-bottom: 4rem;
       padding-top: 1rem;
     }
-  
     a {
       color: white;
 
@@ -48,7 +47,6 @@
         border-radius: 1.5rem;
       }
     }
-  
     p {
       font-family: $font-lato;
       font-size: 1.1rem;
@@ -56,7 +54,6 @@
       margin-top: 3rem;
       margin-bottom: 1rem;
     }
-  
     p:nth-child(3) {
       font-family: $font-lato;
       text-align: center;
@@ -69,7 +66,6 @@
       margin-top: 4rem;
       border-radius: 0.5rem;
     }
-  
     &-email {
       display: flex;
       align-items: flex-end;
@@ -79,13 +75,11 @@
           font-family: $font-lato;
           font-size: 1.1rem;
         }
-    
         a:hover {
           text-decoration: underline;
           color: $my-red;
         }
       }
-  
       img {
         width: 0.9rem;
         height: 0.9rem;
@@ -117,20 +111,17 @@
       font-family: Coco-semilight;
       font-size: 1.5rem;
     }
-
     &-title::after {
       content: "";
       margin-top: 1.5rem;
-      border: .125rem solid $my-red;
+      border: 0.125rem solid $my-red;
       width: 2rem;
     }
-
     p {
       font-family: $font-lato;
       font-size: 1rem;
       margin-top: 1.5rem;
     }
-
     &-grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -155,15 +146,14 @@
           align-items: center;
           width: 100%;
           height: 100%;
-          background: rgb(39,42,49);
-          background: linear-gradient(90deg, rgba(39,42,49,1) 4%, rgba(160,67,60,0.6) 21%, rgba(200,75,63,0.6) 34%, rgba(236,82,66,0.6) 50%, rgba(160,67,60,0.6) 75%, rgba(39,42,49,1) 96%);
+          background: rgb(39, 42, 49);
+          background: linear-gradient(90deg, rgba(39,42,49,1) 4%, rgba(160, 67, 60, 0.6) 21%, rgba(200, 75, 63, 0.6) 34%, rgba(236, 82, 66, 0.6) 50%, rgba(160, 67, 60, 0.6) 75%, rgba(39, 42, 49, 1) 96%);
 
           h2 {
             font-family: $font-lato;
             font-size: 2rem;
             color: white;
           }
-
           p {
             font-family: Coco-light;
             font-size: 0.9rem;
@@ -187,15 +177,14 @@
           align-items: center;
           width: 100%;
           height: 100%;
-          background: rgb(39,42,49);
-          background: linear-gradient(90deg, rgba(39,42,49,1) 4%, rgba(160,67,60,0.6) 21%, rgba(200,75,63,0.6) 34%, rgba(236,82,66,0.6) 50%, rgba(160,67,60,0.6) 75%, rgba(39,42,49,1) 96%);
+          background: rgb(39, 42, 49);
+          background: linear-gradient(90deg, rgba(39, 42, 49, 1) 4%, rgba(160, 67, 60, 0.6) 21%, rgba(200, 75, 63, 0.6) 34%, rgba(236, 82, 66, 0.6) 50%, rgba(160, 67, 60, 0.6) 75%, rgba(39, 42, 49, 1) 96%);
 
           h2 {
             font-family: $font-lato;
             font-size: 2rem;
             color: white;
           }
-
           p {
             font-family: Coco-light;
             font-size: 0.9rem;
@@ -249,11 +238,10 @@
     font-size: 2rem;
     margin-top: 3rem;
   }
-
   h1::after {
     content: "";
     margin-top: 1.5rem;
-    border: .0625rem solid $my-red;
+    border: 0.0625rem solid $my-red;
     width: 2rem;
   }
 
@@ -268,7 +256,6 @@
       filter: invert(94%) sepia(4%) saturate(0%) hue-rotate(140deg) brightness(94%) contrast(84%);
       margin-right: 3rem;
     }
-
     img:nth-child(5),
     img:nth-child(4) {
       width: 6rem;

@@ -18,18 +18,15 @@
     margin: 0 0.5rem;
     filter: invert(100%);
   }
-
   ul {
     display: flex;
     align-items: center;
     margin-right: 5rem;
     margin-left: 2rem;
   }
-
   li:first-child {
     margin-right: 1.5rem;
   }
-
   a {
     color: white;
   }
@@ -71,7 +68,6 @@
       position: relative;
       bottom: 1.3rem;
     }
-
     h2 {
       font-family: Coco-light;
       font-size: 2rem;
@@ -97,7 +93,6 @@
           font-size: 1.2rem;
           color: white;
         }
-  
         a:hover {
           color: $my-gray;
         }
@@ -116,9 +111,9 @@
       background-color: $my-black;
       color: white;
       cursor: pointer;
-      -webkit-box-shadow: 6px 6px 23px -1px rgba(0,0,0,0.75);
-      -moz-box-shadow: 6px 6px 23px -1px rgba(0,0,0,0.75);
-      box-shadow: 6px 6px 23px -1px rgba(0,0,0,0.75);
+      -webkit-box-shadow: 6px 6px 23px -1px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 6px 6px 23px -1px rgba(0, 0, 0, 0.75);
+      box-shadow: 6px 6px 23px -1px rgba(0, 0, 0, 0.75);
 
       img {
         width: 1.5rem;
@@ -128,11 +123,9 @@
         left: 0.5rem;
         filter: invert(100%);
       }
-
       span:hover {
         filter: invert(43%) sepia(29%) saturate(3059%) hue-rotate(334deg) brightness(95%) contrast(95%);
       }
-
       span {
         position: relative;
         bottom: 0.2rem;
@@ -161,7 +154,6 @@
     font-size: 2rem;
     margin-bottom: 2rem;
   }
-
   h1::after {
     content: "";
     margin-top: 1.5rem;
@@ -181,7 +173,6 @@
       filter: invert(94%) sepia(4%) saturate(0%) hue-rotate(140deg) brightness(94%) contrast(84%);
       margin-right: 3rem;
     }
-
     img:nth-child(5),
     img:nth-child(4) {
       width: 6rem;

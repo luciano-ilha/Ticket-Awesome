@@ -1,6 +1,6 @@
 @font-face {
   font-family: Coco-thin;
-  src: url("../assets/fonts/Cocogoose Pro Thin-trial.ttf");
+  src: url("../assets/fonts/Cocogoose\ Pro\ Thin-trial.ttf");
 }
 
 @font-face {
@@ -10,42 +10,42 @@
 
 @font-face {
   font-family: Coco-light;
-  src: url("../assets/fonts/Cocogoose Pro Light-trial.ttf");
+  src: url("../assets/fonts/Cocogoose\ Pro\ Light-trial.ttf");
 }
 
 @font-face {
   font-family: Coco-semilight;
-  src: url("../assets/fonts/Cocogoose Pro Semilight-trial.ttf");
+  src: url("../assets/fonts/Cocogoose\ Pro\ Semilight-trial.ttf");
 }
 
 @font-face {
   font-family: Coco-trial;
-  src: url("../assets/fonts/Cocogoose Pro-trial.ttf");
+  src: url("../assets/fonts/Cocogoose\ Pro-trial.ttf");
 }
 
 @font-face {
   font-family: Coco-thin-italic;
-  src: url("../assets/fonts/Cocogoose Pro Thin Italic-trial.ttf");
+  src: url("../assets/fonts/Cocogoose\ Pro\ Thin\ Italic-trial.ttf");
 }
 
 @font-face {
   font-family: Coco-ultralight-italic;
-  src: url("../assets/fonts/Cocogoose Pro UltraLight Italic-trial.ttf");
+  src: url("../assets/fonts/Cocogoose\ Pro\ UltraLight\ Italic-trial.ttf");
 }
 
 @font-face {
   font-family: Coco-light-italic;
-  src: url("../assets/fonts/Cocogoose Pro Light Italic-trial.ttf");
+  src: url("../assets/fonts/Cocogoose\ Pro\ Light\ Italic-trial.ttf");
 }
 
 @font-face {
   font-family: Coco-semilight-italic;
-  src: url("../assets/fonts/Cocogoose Pro Semilight Italic-trial.ttf");
+  src: url("../assets/fonts/Cocogoose\ Pro\ Semilight\ Italic-trial.ttf");
 }
 
 @font-face {
   font-family: Coco-trial-italic;
-  src: url("../assets/fonts/Cocogoose Pro Italic-trial.ttf");
+  src: url("../assets/fonts/Cocogoose\ Pro\ Italic-trial.ttf");
 }
 
 main .general-menu {
@@ -1424,5 +1424,4 @@ main .general-menu {
     display: flex;
     height: 11rem;
   }
-
 }

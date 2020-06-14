@@ -43,7 +43,6 @@ main {
       margin-bottom: 2rem;
       padding-top: 0.5rem;
     }
-
     h2 {
       font-family: Coco-semilight;
       font-size: 6rem;
@@ -55,7 +54,6 @@ main {
       margin-bottom: 4rem;
       padding-top: 1rem;
     }
-  
     a {
       color: white;
 
@@ -69,7 +67,6 @@ main {
         border-radius: 1.5rem;
       }
     }
-  
     p:nth-child(4) {
       font-family: $font-lato;
       font-size: 1.5rem;
@@ -95,7 +92,6 @@ main {
         padding: 0.3rem;
         border-radius: 0.5rem;
       }
-
       p {
         font-family: $font-lato;
         font-size: 1.4rem;
@@ -130,7 +126,6 @@ main {
     color: white;
     margin-bottom: 3rem;
   }
-
   h2::after {
     content: "";
     margin-top: 1.5rem;
@@ -171,7 +166,6 @@ main {
           margin-bottom: 1.5rem;
           filter: invert(100%);
         }
-
         h3 {
           font-family: Coco-semilight;
           font-size: 1.1rem;
@@ -179,7 +173,6 @@ main {
           color: $my-red;
           margin-bottom: 1rem;
         }
-
         p {
           font-family: $font-lato;
           font-size: 1rem;
@@ -203,9 +196,9 @@ main {
   &-button-smscreen {
     display: none;
     text-transform: uppercase;
-    -webkit-box-shadow: 5px 5px 15px -2px rgba(0,0,0,0.75);
-    -moz-box-shadow: 5px 5px 15px -2px rgba(0,0,0,0.75);
-    box-shadow: 5px 5px 15px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 5px 5px 15px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 15px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 15px -2px rgba(0, 0, 0, 0.75);
   }
 }
 
@@ -227,11 +220,10 @@ main {
     color: rgb(78, 78, 78);
     margin-bottom: 3rem;
   }
-
   h2::after {
     content: "";
     margin-top: 1.5rem;
-    border: .1rem solid $my-red;
+    border: 0.1rem solid $my-red;
     width: 4rem;
   }
 
@@ -263,7 +255,6 @@ main {
         img {
           width: 5rem;
         }
-
         div {
           border-top: 0.5rem solid $my-red;
           border-left: 0.5rem solid $my-red;
@@ -273,12 +264,10 @@ main {
           top: 0;
           left: 0;
         }
-
         .img8,
         .img2 {
           width: 6rem;
         }
-
         .img7,
         .img4 {
           width: 6.5rem;
@@ -307,10 +296,9 @@ main {
         &-p::after {
           content: "";
           margin-top: 0.6rem;
-          border: .0625rem solid $my-gray;
+          border: 0.0625rem solid $my-gray;
           width: 2rem;
         }
-
         p:last-child {
           font-family: $font-lato;
           font-size: 0.9rem;
