@@ -1,22 +1,28 @@
 @media screen and (max-width: 1500px) {
   // GENERAL NAVIGATION
   .top-nav {
+
     ul {
       margin-right: 3rem;
     }
+
     li:first-child {
       margin-right: 1.5rem;
     }
+
     a {
       color: white;
     }
   }
 
   .bottom-nav {
+
     &-left {
+
       &-ticket-logo {
         margin: 0.4rem 2rem 0.4rem 2rem;
       }
+
       h1 {
         font-size: 1.8rem;
       }
@@ -28,7 +34,9 @@
       ul {
         margin-right: 2rem;
       }
+
       li {
+
         a {
           font-family: $font-lato;
           font-size: 1.1rem;
@@ -43,13 +51,17 @@
 
     &-row {
       width: 85%;
+
       h1 {
         font-size: 2.5rem;
       }
+
       h2 {
         font-size: 4.5rem;
       }
+
       a {
+
         h3 {
           font-size: 2rem;
           margin-left: 3rem;
@@ -62,6 +74,7 @@
       }
 
       &-bottom {
+
         h3 {
           font-size: 2.3rem;
         }
@@ -71,6 +84,7 @@
 
   // INDEX - MAIN PROGRAM
   .main-program {
+
     &-row {
       width: 95%;
     }
@@ -78,6 +92,7 @@
 
   // INDEX - FEATURED ARTISTS
   .featured {
+
     &-grid {
       width: 90%;
     }
@@ -97,6 +112,7 @@
         font-size: 4.5rem;
         margin-bottom: 3rem;
       }
+
       a {
         color: white;
 
@@ -104,12 +120,14 @@
           font-size: 2rem;
         }
       }
+
       p {
         font-size: 1.1rem;
         color: white;
         margin-top: 3rem;
         margin-bottom: 1rem;
       }
+
       p:nth-child(3) {
         font-size: 1.3rem;
         line-height: 2rem;
@@ -120,11 +138,14 @@
         margin-top: 4rem;
         border-radius: 0.5rem;
       }
+
       span {
+
         a {
           font-family: $font-lato;
           font-size: 1.1rem;
         }
+
         a:hover {
           text-decoration: underline;
           color: $my-red;
@@ -147,7 +168,9 @@
 
   // TICKETS
   .tickets {
+
     &-row {
+
       &-grid {
         width: 85%;
       }
@@ -158,7 +181,9 @@
 @media screen and (max-width: 1200px) {
   // GENERAL NAVIGATION
   .bottom-nav {
+
     &-right {
+
       ul { 
         margin-right: 1rem;
 
@@ -180,6 +205,7 @@
     height: 60rem;
 
     &-row {
+
       p:nth-child(3) {
         width: 50rem;
       }
@@ -188,7 +214,9 @@
 
   // TICKETS
   .tickets {
+
     &-row {
+
       &-grid {
         width: 95%;
       }
@@ -199,7 +227,9 @@
 @media screen and (max-width: 992px) {
   // GENERAL NAVIGATION
   .bottom-nav {
+
     &-right {
+
       ul { 
         margin-right: 1rem;
 
@@ -210,6 +240,7 @@
             font-size: 1.1rem;
           }
         }
+
         li:nth-child(5),
         li:nth-child(4) {
           display: none;
@@ -220,30 +251,37 @@
 
   // INDEX - MAIN CONTENT
   .main-content {
+
     &-row {
       width: 85%;
 
       h1 {
         font-size: 2.3rem;
       }
+
       h2 {
         font-size: 4rem;
       }
+
       a {
+
         h3 {
           font-size: 1.6rem;
           margin-left: 2rem;
         }
       }
+
       p:nth-child(4) {
         width: 80%;
         font-size: 1.2rem;
       }
 
       &-bottom {
+
         h3 {
           font-size: 2rem;
         }
+
         p {
           font-size: 1.3rem;
         }
@@ -253,11 +291,14 @@
 
   // INDEX - MAIN PROGRAM
   .main-program {
+
     &-row {
+
       &-grid {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
       }
+
       a:nth-child(4) {
         grid-column: 1/3;
       }
@@ -266,6 +307,7 @@
 
   // INDEX - FOOTER
   .top-footer {
+
     &-row {
       img:nth-child(5),
       img:nth-child(4) {
@@ -278,6 +320,7 @@
 
   // ABOUT - MAIN CONTENT
   .main-about-content {
+
     &-row {
       padding-top: 6rem;
 
@@ -293,7 +336,9 @@
 
   // ABOUT - PREVIOUS EVENTS
   .about-previous-events {
+
     &-row {
+
       &-grid {
         width: 45rem;
       }
@@ -302,7 +347,9 @@
 
   // TICKETS
   .tickets {
+
     &-row {
+
       &-grid {
         width: 100%;
       }
@@ -324,6 +371,7 @@
 
   // INDEX - MAIN CONTENT
   .main-content {
+
     &-menu {
       display: block;
       padding-top: 2rem;
@@ -344,12 +392,15 @@
         margin-top: 3rem;
         margin-bottom: 0.5rem;
       }
+
       a {
+
         h3 {
           font-size: 1.4rem;
           margin-left: 0;
         }
       }
+
       p:nth-child(4) {
         font-size: 1.3rem;
         line-height: 1.8rem;
@@ -357,9 +408,11 @@
       }
 
       &-bottom {
+
         h3 {
           font-size: 1.8rem;
         }
+
         p {
           font-size: 1.3rem;
         }
@@ -369,7 +422,9 @@
 
   // INDEX - MAIN PROGRAM
   .main-program {
+
     &-row {
+
       &-grid {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(5, 1fr);
@@ -417,10 +472,13 @@
 
   // INDEX - FOOTER
   .top-footer {
+
     &-row {
+
       img {
         width: 9.5rem;
       }
+
       img:nth-child(5),
       img:nth-child(4) {
         width: 5rem;
@@ -429,7 +487,9 @@
   }
 
   .bottom-footer {
+
     a {
+
       img {
         width: 6rem;
         height: 6rem;
@@ -455,23 +515,29 @@
       h1 {
         font-size: 4rem;
       }
+
       a {
+
         h3 {
           display: none;
         }
       }
+
       p:nth-child(3) {
         margin-bottom: 0;
         margin-top: 0;
         width: 27rem;
       }
+
       p:nth-child(4) {
         font-size: 1.1rem;
         margin-top: 2.4rem;
       }
 
       &-email {
+
         span {
+
           a {
             font-size: 1.1rem;
           }
@@ -486,6 +552,7 @@
     height: 60rem;
 
     &-row {
+
       &-grid {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, 1fr);
@@ -496,15 +563,18 @@
           height: 19rem;
           
           &-content {
+
             h1 {
               font-size: 3rem;
             }
+
             p {
               font-size: 1.3rem;
             }
           }
         }
       }
+
       p {
         width:90%;
       }
@@ -529,6 +599,7 @@
       width: 95%;
 
       &-grid {
+
         form,
         p {
           font-size: 1rem;
@@ -558,10 +629,11 @@
       img {
         width: 8rem;
       }
+
       img:nth-child(5),
       img:nth-child(4) {
         width: 5rem;
-    }
+      }
     }
   }
 
