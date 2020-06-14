@@ -155,6 +155,42 @@ main .general-menu {
   color: white;
 }
 
+.main-about-content-row p {
+  font-family: "Lato", sans-serif;
+  font-size: 1.1rem;
+  color: white;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.about-previous-events-row p {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  margin-top: 1.5rem;
+}
+
+.about-previous-events-row-grid-item1-content p {
+  font-family: Coco-light;
+  font-size: 0.9rem;
+}
+
+.about-previous-events-row-grid-item2-content p {
+  font-family: Coco-light;
+  font-size: 0.9rem;
+}
+
+.black-footer-logo-right p {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  color: white;
+}
+
+.bottom-about-footer-right p {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  color: black;
+}
+
 .main-content-row p:nth-child(4) {
   font-family: "Lato", sans-serif;
   font-size: 1.5rem;
@@ -416,14 +452,6 @@ main .general-menu {
   border-radius: 1.5rem;
 }
 
-.main-about-content-row p {
-  font-family: "Lato", sans-serif;
-  font-size: 1.1rem;
-  color: white;
-  margin-top: 3rem;
-  margin-bottom: 1rem;
-}
-
 .main-about-content-row p:nth-child(3) {
   font-family: "Lato", sans-serif;
   text-align: center;
@@ -489,12 +517,6 @@ main .general-menu {
   width: 2rem;
 }
 
-.about-previous-events-row p {
-  font-family: "Lato", sans-serif;
-  font-size: 1rem;
-  margin-top: 1.5rem;
-}
-
 .about-previous-events-row-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -531,11 +553,6 @@ main .general-menu {
   color: white;
 }
 
-.about-previous-events-row-grid-item1-content p {
-  font-family: Coco-light;
-  font-size: 0.9rem;
-}
-
 .about-previous-events-row-grid-item2 {
   height: 12rem;
   color: white;
@@ -563,11 +580,6 @@ main .general-menu {
   color: white;
 }
 
-.about-previous-events-row-grid-item2-content p {
-  font-family: Coco-light;
-  font-size: 0.9rem;
-}
-
 .black-footer-logo {
   display: flex;
   justify-content: center;
@@ -583,14 +595,7 @@ main .general-menu {
   margin-right: 4rem;
 }
 
-.black-footer-logo-right p {
-  font-family: "Lato", sans-serif;
-  font-size: 1rem;
-  color: white;
-}
-
 .top-about-footer {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -629,6 +634,12 @@ main .general-menu {
   margin-right: 3rem;
 }
 
+.bottom-about-footer img {
+  width: 7rem;
+  height: 7rem;
+  margin-right: 4rem;
+}
+
 .top-about-footer-row img:nth-child(5),
 .top-about-footer-row img:nth-child(4) {
   width: 6rem;
@@ -641,18 +652,6 @@ main .general-menu {
   background-color: white;
   height: 13rem;
   display: none;
-}
-
-.bottom-about-footer img {
-  width: 7rem;
-  height: 7rem;
-  margin-right: 4rem;
-}
-
-.bottom-about-footer-right p {
-  font-family: "Lato", sans-serif;
-  font-size: 1rem;
-  color: black;
 }
 
 .tickets {
@@ -691,8 +690,6 @@ main .general-menu {
 .tickets-row {
   display: flex;
   justify-content: center;
-  justify-content: center;
-  width: fit-content;
   width: 93%;
   height: fit-content;
 }
