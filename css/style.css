@@ -48,6 +48,160 @@
   src: url("../assets/fonts/Cocogoose-Pro-Italic-trial.ttf");
 }
 
+.bottom-footer,
+.top-footer-row,
+.top-footer h1,
+.top-footer,
+.bottom-nav-right ul,
+.bottom-nav-right,
+.bottom-nav-left,
+.bottom-nav,
+.top-nav ul,
+.top-nav,
+.tickets-row,
+.tickets h2,
+.tickets,
+.top-about-footer-row,
+.top-about-footer h1,
+.black-footer-logo,
+.about-previous-events-row-grid-item2-content,
+.about-previous-events-row-grid-item1-content,
+.about-previous-events-row-title,
+.about-previous-events-row,
+.about-previous-events,
+.main-about-content-row-email,
+.main-about-content-row,
+.featured-grid-item-right-p,
+.featured-grid-item-right,
+.featured-grid-item-imgbox,
+.featured-grid-item,
+.featured-grid a,
+.featured h2,
+.featured,
+.main-program-row-grid-item,
+.main-program-row,
+.main-program h2,
+.main-program,
+.main-content-row-bottom,
+.tickets-row-grid form,
+.tickets-row-grid p,
+.main-content-row {
+  display: flex;
+}
+
+.top-footer h1,
+.top-footer,
+.tickets h2,
+.tickets,
+.top-about-footer h1,
+.top-about-footer,
+.about-previous-events-row-grid-item2-content,
+.about-previous-events-row-grid-item1-content,
+.about-previous-events-row-title,
+.about-previous-events-row,
+.main-about-content-row,
+.featured-grid-item-right-p,
+.featured-grid-item-right,
+.featured h2,
+.featured,
+.main-program-row-grid-item,
+.main-program-row,
+.main-program h2,
+.main-program,
+.main-content-row-bottom,
+.tickets-row-grid form,
+.tickets-row-grid p,
+.main-content-row {
+  flex-direction: column;
+}
+
+.bottom-footer,
+.top-footer-row,
+.top-footer,
+.tickets-row,
+.tickets,
+.bottom-about-footer,
+.top-about-footer,
+.black-footer-logo,
+.about-previous-events-row-grid-item2-content,
+.about-previous-events-row-grid-item1-content,
+.featured-grid-item-imgbox,
+.featured,
+.main-program-row,
+.main-program,
+.tickets-row-grid form,
+.tickets-row-grid p {
+  justify-content: center;
+}
+
+.bottom-footer,
+.top-footer-row,
+.top-footer h1,
+.top-footer,
+.bottom-nav-right,
+.bottom-nav-left,
+.bottom-nav,
+.top-nav ul,
+.top-nav,
+.tickets h2,
+.tickets,
+.bottom-about-footer,
+.top-about-footer-row,
+.top-about-footer h1,
+.top-about-footer,
+.black-footer-logo,
+.about-previous-events-row-grid-item2-content,
+.about-previous-events-row-grid-item1-content,
+.about-previous-events-row-title,
+.about-previous-events-row,
+.about-previous-events,
+.main-about-content-row,
+.featured-grid-item-imgbox,
+.featured h2,
+.featured,
+.main-program-row-grid-item,
+.main-program-row,
+.main-program h2,
+.main-program,
+.tickets-row-grid form,
+.tickets-row-grid p {
+  align-items: center;
+}
+
+.top-nav a,
+.main-about-content-row a,
+.main-content-row a {
+  color: white;
+}
+
+.featured-grid a {
+  color: black;
+}
+
+.main-about-content-row-email span a {
+  font-size: 1.1rem;
+}
+
+.main-about-content-row-email span a,
+.bottom-nav-right button,
+.top-nav,
+.about-previous-events-row-grid-item2-content h2,
+.about-previous-events-row-grid-item1-content h2,
+.bottom-nav-right ul li a,
+.featured-grid-item-right-p,
+.bottom-footer-right p,
+.tickets-row-grid form,
+.tickets-row-grid p,
+.bottom-about-footer-right p,
+.black-footer-logo-right p,
+.about-previous-events-row p,
+.main-about-content-row p,
+.main-program-row-grid-item p,
+.main-content-row-bottom p,
+.main-content-row-bottom h3 {
+  font-family: "Lato", sans-serif;
+}
+
 main .general-menu {
   display: none;
   width: 3.3rem;
@@ -73,8 +227,6 @@ main .general-menu {
 }
 
 .main-content-row {
-  display: flex;
-  flex-direction: column;
   align-items: flex-start;
   width: 70%;
   margin: 0 auto;
@@ -104,12 +256,7 @@ main .general-menu {
   padding-top: 1rem;
 }
 
-.main-content-row a {
-  color: white;
-}
-
 .main-content-row-bottom h3 {
-  font-family: "Lato", sans-serif;
   font-size: 2.5rem;
   background-color: #d3d3d3;
   color: #ec5242;
@@ -137,7 +284,6 @@ main .general-menu {
 }
 
 .main-content-row-bottom p {
-  font-family: "Lato", sans-serif;
   font-size: 1.4rem;
   background-color: #d3d3d3;
   color: #ec5242;
@@ -148,7 +294,6 @@ main .general-menu {
 }
 
 .main-program-row-grid-item p {
-  font-family: "Lato", sans-serif;
   font-size: 1rem;
   line-height: 1.5rem;
   z-index: 1;
@@ -156,7 +301,6 @@ main .general-menu {
 }
 
 .main-about-content-row p {
-  font-family: "Lato", sans-serif;
   font-size: 1.1rem;
   color: white;
   margin-top: 3rem;
@@ -164,7 +308,6 @@ main .general-menu {
 }
 
 .about-previous-events-row p {
-  font-family: "Lato", sans-serif;
   font-size: 1rem;
   margin-top: 1.5rem;
 }
@@ -180,24 +323,17 @@ main .general-menu {
 }
 
 .black-footer-logo-right p {
-  font-family: "Lato", sans-serif;
   font-size: 1rem;
   color: white;
 }
 
 .bottom-about-footer-right p {
-  font-family: "Lato", sans-serif;
   font-size: 1rem;
   color: black;
 }
 
 .tickets-row-grid form,
 .tickets-row-grid p {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family: "Lato", sans-serif;
   font-size: 1.1rem;
   line-height: 1.5rem;
   height: 5rem;
@@ -206,7 +342,6 @@ main .general-menu {
 }
 
 .bottom-footer-right p {
-  font-family: "Lato", sans-serif;
   font-size: 1rem;
   color: black;
 }
@@ -223,16 +358,7 @@ main .general-menu {
   border-radius: 0.5rem;
 }
 
-.main-content-row-bottom {
-  display: flex;
-  flex-direction: column;
-}
-
 .main-program {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   background-color: #282b32;
   height: fit-content;
   padding-top: 5rem;
@@ -240,9 +366,6 @@ main .general-menu {
 }
 
 .main-program h2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   font-family: coco-ultralight, sans-serif;
   font-size: 1.8rem;
   color: white;
@@ -257,10 +380,6 @@ main .general-menu {
 }
 
 .main-program-row {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 78%;
   height: fit-content;
 }
@@ -276,9 +395,6 @@ main .general-menu {
 }
 
 .main-program-row-grid-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   position: relative;
   text-align: center;
   padding: 1rem;
@@ -309,17 +425,10 @@ main .general-menu {
 }
 
 .featured {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   padding: 6rem 0;
 }
 
 .featured h2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   font-family: coco-ultralight, sans-serif;
   font-size: 1.8rem;
   color: white;
@@ -341,19 +450,7 @@ main .general-menu {
   width: 75%;
 }
 
-.featured-grid a {
-  display: flex;
-  color: black;
-}
-
-.featured-grid-item {
-  display: flex;
-}
-
 .featured-grid-item-imgbox {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: relative;
   width: 33%;
   height: fit-content;
@@ -386,11 +483,6 @@ main .general-menu {
   width: 6.5rem;
 }
 
-.featured-grid-item-right {
-  display: flex;
-  flex-direction: column;
-}
-
 .featured-grid-item-right h2 {
   font-family: coco-light, sans-serif;
   font-size: 1.2rem;
@@ -398,9 +490,6 @@ main .general-menu {
 }
 
 .featured-grid-item-right-p {
-  display: flex;
-  flex-direction: column;
-  font-family: "Lato", sans-serif;
   font-style: italic;
   font-size: 0.9rem;
   color: #ec5242;
@@ -438,9 +527,6 @@ main .general-menu {
 }
 
 .main-about-content-row {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 70%;
   margin: 0 auto;
   padding-top: 13rem;
@@ -457,10 +543,6 @@ main .general-menu {
   text-align: center;
   margin-bottom: 4rem;
   padding-top: 1rem;
-}
-
-.main-about-content-row a {
-  color: white;
 }
 
 .main-about-content-row a h3 {
@@ -486,21 +568,10 @@ main .general-menu {
 }
 
 .main-about-content-row-email {
-  display: flex;
   align-items: flex-end;
 }
 
-.top-nav a {
-  color: white;
-}
-
-.main-about-content-row-email span a {
-  font-family: "Lato", sans-serif;
-  font-size: 1.1rem;
-}
-
 .bottom-nav-right ul li a {
-  font-family: "Lato", sans-serif;
   font-size: 1.2rem;
   color: white;
 }
@@ -518,24 +589,16 @@ main .general-menu {
 }
 
 .about-previous-events {
-  display: flex;
-  align-items: center;
   text-align: center;
   background-color: whitesmoke;
   height: 35rem;
 }
 
 .about-previous-events-row {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin: 0 auto;
 }
 
 .about-previous-events-row-title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   font-family: coco-semilight, sans-serif;
   font-size: 1.5rem;
 }
@@ -567,10 +630,6 @@ main .general-menu {
 }
 
 .about-previous-events-row-grid-item1-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   height: 100%;
   background: #272a31;
@@ -578,7 +637,6 @@ main .general-menu {
 }
 
 .about-previous-events-row-grid-item1-content h2 {
-  font-family: "Lato", sans-serif;
   font-size: 2rem;
   color: white;
 }
@@ -594,10 +652,6 @@ main .general-menu {
 }
 
 .about-previous-events-row-grid-item2-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   height: 100%;
   background: #272a31;
@@ -605,15 +659,11 @@ main .general-menu {
 }
 
 .about-previous-events-row-grid-item2-content h2 {
-  font-family: "Lato", sans-serif;
   font-size: 2rem;
   color: white;
 }
 
 .black-footer-logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #272a31;
   height: 13rem;
 }
@@ -626,9 +676,6 @@ main .general-menu {
 }
 
 .top-about-footer {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: fit-content;
   background-color: #424244;
   color: white;
@@ -636,9 +683,6 @@ main .general-menu {
 }
 
 .top-about-footer h1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   font-family: coco-light, sans-serif;
   font-size: 2rem;
   margin-top: 3rem;
@@ -652,8 +696,6 @@ main .general-menu {
 }
 
 .top-about-footer-row {
-  display: flex;
-  align-items: center;
   margin-top: 2rem;
   margin-bottom: 4rem;
 }
@@ -702,19 +744,14 @@ main .general-menu {
 }
 
 .bottom-about-footer {
-  justify-content: center;
-  align-items: center;
   background-color: white;
   height: 13rem;
   display: none;
 }
 
 .tickets {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   padding: 6rem 0;
+  margin: 0 auto;
 }
 
 .tickets-menu {
@@ -725,9 +762,6 @@ main .general-menu {
 }
 
 .tickets h2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   font-family: coco-ultralight, sans-serif;
   font-size: 1.8rem;
   color: white;
@@ -743,8 +777,6 @@ main .general-menu {
 }
 
 .tickets-row {
-  display: flex;
-  justify-content: center;
   width: fit-content;
   width: 93%;
   height: fit-content;
@@ -792,18 +824,13 @@ main .general-menu {
 }
 
 .top-nav {
-  font-family: "Lato", sans-serif;
-  display: flex;
   justify-content: flex-end;
-  align-items: center;
   height: 2.5rem;
   background-color: #272a31;
   color: white;
 }
 
 .top-nav ul {
-  display: flex;
-  align-items: center;
   margin-right: 5rem;
   margin-left: 2rem;
 }
@@ -827,9 +854,7 @@ main .general-menu {
 }
 
 .bottom-nav {
-  display: flex;
   justify-content: space-between;
-  align-items: center;
   height: fit-content;
   background: #272a31;
   background: linear-gradient(135deg, #272a31 21%, #a0433c 51%, #c84b3f 66%, #ec5242 100%);
@@ -837,8 +862,6 @@ main .general-menu {
 
 .bottom-nav-left {
   position: relative;
-  display: flex;
-  align-items: center;
   line-height: 2.2rem;
 }
 
@@ -862,13 +885,10 @@ main .general-menu {
 }
 
 .bottom-nav-right {
-  display: flex;
-  align-items: center;
   margin-right: 5rem;
 }
 
 .bottom-nav-right ul {
-  display: flex;
   margin-right: 3rem;
 }
 
@@ -877,7 +897,6 @@ main .general-menu {
 }
 
 .bottom-nav-right button {
-  font-family: "Lato", sans-serif;
   font-size: 1rem;
   position: relative;
   width: 7.5rem;
@@ -901,10 +920,6 @@ main .general-menu {
 }
 
 .top-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: fit-content;
   background-color: #424244;
   color: white;
@@ -913,9 +928,6 @@ main .general-menu {
 }
 
 .top-footer h1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   font-family: coco-light, sans-serif;
   font-size: 2rem;
   margin-bottom: 2rem;
@@ -929,10 +941,7 @@ main .general-menu {
 }
 
 .top-footer-row {
-  display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
   width: 90%;
 }
 
@@ -942,9 +951,6 @@ main .general-menu {
 }
 
 .bottom-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: white;
   height: 13rem;
   padding: 0 1rem;
@@ -1195,6 +1201,7 @@ main .general-menu {
 
   .tickets-row-grid {
     width: 100%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
   }
 }
 
@@ -1357,7 +1364,8 @@ main .general-menu {
   }
 
   .main-about-content-row h1 {
-    font-size: 4rem;
+    font-size: 3.3rem;
+    width: 95%;
   }
 
   .main-about-content-row a h3 {
@@ -1402,6 +1410,7 @@ main .general-menu {
 
   .tickets {
     padding-top: 9rem;
+    width: 95%;
   }
 
   .tickets-menu {
