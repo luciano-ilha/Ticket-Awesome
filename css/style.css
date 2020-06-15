@@ -947,6 +947,7 @@ main .general-menu {
   align-items: center;
   background-color: white;
   height: 13rem;
+  padding: 0 1rem;
 }
 
 @media screen and (max-width: 1500px) {
@@ -1309,7 +1310,6 @@ main .general-menu {
 
   .top-about-footer-row,
   .top-footer-row {
-    width: 95%;
     margin-left: 2.5rem;
   }
 
@@ -1439,7 +1439,7 @@ main .general-menu {
 
   .top-about-footer-row img:nth-child(5),
   .top-about-footer-row img:nth-child(4) {
-    width: 5rem;
+    width: 4rem;
   }
 
   .bottom-about-footer {
