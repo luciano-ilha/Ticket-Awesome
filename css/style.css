@@ -1197,7 +1197,7 @@ main .general-menu {
   }
 }
 
-@media screen and (max-width: 764px) {
+@media screen and (max-width: 768px) {
   .top-nav {
     display: none;
   }
@@ -1251,7 +1251,7 @@ main .general-menu {
 
   .tickets-row-grid form,
   .tickets-row-grid p {
-    font-size: 1rem;
+    font-size: 0.6rem;
     line-height: 1.3rem;
   }
 
@@ -1307,6 +1307,13 @@ main .general-menu {
     margin-bottom: 4rem;
   }
 
+  .top-about-footer-row,
+  .top-footer-row {
+    width: 95%;
+    margin-left: 2.5rem;
+  }
+
+  .top-about-footer-row img,
   .top-footer-row img {
     width: 9.5rem;
   }
@@ -1326,6 +1333,10 @@ main .general-menu {
     margin-right: 2rem;
   }
 
+  .top-footer-row img:first-child {
+    margin-bottom: 2.5rem;
+  }
+
   .top-footer-row img:nth-child(5),
   .top-footer-row img:nth-child(4) {
     width: 5rem;
@@ -1342,6 +1353,7 @@ main .general-menu {
 
   .main-about-content-row {
     padding-top: 3rem;
+    width: 98%;
   }
 
   .main-about-content-row h1 {
@@ -1371,7 +1383,7 @@ main .general-menu {
   .about-previous-events-row-grid {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
-    width: 30rem;
+    width: 95%;
   }
 
   .about-previous-events-row-grid-item2,
@@ -1382,6 +1394,10 @@ main .general-menu {
   .about-previous-events-row-grid-item2-content h1,
   .about-previous-events-row-grid-item1-content h1 {
     font-size: 3rem;
+  }
+
+  .top-about-footer-row img:first-child {
+    margin-bottom: 1.5rem;
   }
 
   .tickets {
@@ -1412,6 +1428,7 @@ main .general-menu {
 
   .top-about-footer {
     display: flex;
+    padding-left: 2rem;
   }
 
   .top-about-footer-row {
