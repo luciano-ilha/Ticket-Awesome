@@ -1,6 +1,6 @@
 # Ticket Awesome
 
-> This project consists of a ticket sales website for shows and events, with 3 pages in total (main page, about page and tickets page), it was done with HTML, CSS Positioning and Layout (Including Grid and Flexbox), and Media Query. 3 Pages completely responsive!
+> This project consists of a ticket sales website for shows and events, with 3 pages in total (main page, about page and tickets page), it was built with HTML, CSS Positioning and Layout (Including Grid and Flexbox), and Media Query. 3 Pages completely responsive!
 
 
 ![Screenshot](assets/images/project-screenshot.png)
