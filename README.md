@@ -12,7 +12,7 @@
 - Google fonts
  
 # Live Demo #
-[Live Demo Link](https://rawcdn.githack.com/luciano-ilha/Ticket-Awesome/f12d41595a1e66bffaee5f39fcf36590e8822ccd/index.html)
+[Live Demo Link](https://angry-nightingale-867545.netlify.app/)
  
 # Prerequisites #
 All Modern web browsers like:
