@@ -12,7 +12,7 @@
 - Google fonts
  
 # Live Demo #
-[Live Demo Link](https://angry-nightingale-867545.netlify.app/)
+[Live Demo Link](https://beesmart-ticketawesome.netlify.app/)
  
 # Prerequisites #
 All Modern web browsers like:
